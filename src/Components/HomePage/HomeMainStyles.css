@@ -1,0 +1,316 @@
+.HomeMain {
+  margin: 2rem 4rem;
+  color: rgb(6, 6, 146);
+}
+
+.HomeMain h1 {
+  font-size: 2.65rem;
+}
+.HomeMain h2 {
+  font-size: 2rem;
+  text-align: start;
+}
+.HomeMain p {
+  font-size: 1.2rem;
+  padding-bottom: 0.3rem;
+}
+.GCH-mission-vission {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.HomeMain-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.mission-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+.objective-list {
+  padding-bottom: 1rem;
+}
+
+.objective-list li {
+  padding: 0.4rem;
+}
+
+.objective-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.5rem;
+}
+
+.male-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+}
+
+.HomeMain-text {
+  width: 35%;
+  text-align: start;
+  font-size: 1rem;
+  padding: 1rem;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  cursor: pointer;
+  margin-right: 2rem;
+  background-color: antiquewhite;
+}
+
+.mission-text {
+  width: 35%;
+  text-align: start;
+  font-size: 1rem;
+  padding: 1rem;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 2rem;
+  background-color: antiquewhite;
+}
+
+.objective-text {
+  width: 60%;
+  text-align: start;
+  padding: 1rem;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  cursor: pointer;
+  margin-right: 4rem;
+  padding-left: 3rem;
+}
+
+.male-text {
+  width: 35%;
+  text-align: start;
+  padding: 1rem;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.HomeMain-text h2,
+.mission-text h2 {
+  padding-bottom: 1rem;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.HomeMain-text p,
+.objective-text p,
+.mission-text p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.home-image,
+.objective-image {
+  position: relative;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.objective-image {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.objective-image img:nth-child(2) {
+  margin-top: 1rem;
+}
+
+.mission-image {
+  position: relative;
+  width: 60%;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.mission-image-2 {
+  margin-top: 2rem;
+}
+
+.home-image img {
+  width: 32%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.objective-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.mission-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+/* .gch-at-a-glance {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.gch-home-cart h2 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.gch-home-cart {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+} */
+/* .gch-home-des {
+  width: 24%;
+  text-align: start;
+  padding: 1rem;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.gch-home-image {
+  height: 250px;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.gch-home-image img {
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease-in-out;
+  border-radius: 7px;
+}
+
+.gch-home-image:hover img {
+  transform: scale(1.3);
+}
+
+.gch-home-des h2 {
+  justify-content: center;
+} */
+
+@media screen and (max-width: 850px) {
+  .HomeMain {
+    margin: 1rem 1rem;
+  }
+  .HomeMain h1 {
+    font-size: 1.3rem;
+  }
+  .HomeMain p {
+    padding-bottom: 0.7rem;
+    font-size: 1rem;
+  }
+
+  .HomeMain-des {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 1rem;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .mission-des {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .mission-text {
+    width: 100%;
+    text-align: start;
+    font-size: 0.8rem;
+    padding-right: 1.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0rem;
+  }
+  .objective-des {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0.5rem;
+    padding-left: 0rem;
+  }
+
+  .home-image,
+  .objective-image,
+  .mission-image {
+    width: 100%;
+    margin: 1.5rem 0;
+  }
+
+  .HomeMain-text {
+    width: 100%;
+    text-align: start;
+    font-size: 0.8rem;
+    padding-right: 1.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0rem;
+  }
+
+  .HomeMain-text p {
+    width: 100%;
+    padding-right: 0;
+  }
+  .HomeMain-text h2,
+  .objective-text h2 .mission-text h2 {
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+  }
+  .objective-text {
+    width: 100%;
+    text-align: start;
+    border-radius: 7px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+
+  /* .gch-at-a-glance {
+    font-size: 1rem;
+  }
+  .rk-jewelry-heading {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .rk-jewelry-heading h2 {
+    font-size: 1.3rem;
+  }
+
+  .gch-home-cart {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .gch-home-des {
+    width: 100%;
+    padding-right: 1rem;
+  }
+
+  .rk-jewelry-text {
+    padding-right: 1rem;
+  } */
+}
