@@ -2,6 +2,7 @@ import "./styles.css";
 import Navbar from "./Components/NavbarItems/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Routes/Home";
+import About from "./Routes/About";
 
 export default function App() {
   return (
@@ -10,8 +11,8 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        {/* <Route path="/contact" element={<Contact />} />
         <Route path="/children" element={<Children />} />
         <Route path="/events" element={<Events />} />
         <Route path="/ekCupCha" element={<EkCupCha />} />

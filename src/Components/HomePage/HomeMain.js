@@ -6,13 +6,6 @@ import homeMain_3 from "../Assets/Home/GCH_home-3.jpg";
 import GCH_Mission from "../Assets/Home/GCH_home-4.jpg";
 import GCHObjectives from "../Assets/Home/GCH_home-5.jpg";
 import GCHObjectives_1 from "../Assets/Home/GCH_home-6.jpg";
-import RKFashion_3 from "../Assets/Home/overview-2.jpg";
-import RKFashion_4 from "../Assets/Home/overview-5.jpg";
-import RKFashion_5 from "../Assets/Home/overview-6.png";
-import RKJewelry_1 from "../Assets/Home/overview-2.jpg";
-import RKJewelry_2 from "../Assets/Home/overview-2.jpg";
-import RKJewelry_3 from "../Assets/Home/overview-2.jpg";
-import RKJewelry_4 from "../Assets/Home/overview-4.jpg";
 const HomeMain = () => {
   return (
     <div className="HomeMain">
@@ -100,34 +93,6 @@ const HomeMain = () => {
           <img alt="img" src={GCHObjectives_1} />
         </div>
       </div>
-      {/* <div className="gch-at-a-glance">
-        <h3>GCH At A Glance</h3>
-      </div>
-
-      <div>
-        <div className="gch-home-cart">
-          <div className="gch-home-des">
-            <div className="gch-home-image">
-              <img src={RKJewelry_1} />
-            </div>
-          </div>
-          <div className="gch-home-des">
-            <div className="gch-home-image">
-              <img src={RKJewelry_2} alt="dinara-pic" />
-            </div>
-          </div>
-          <div className="gch-home-des">
-            <div className="gch-home-image">
-              <img src={RKJewelry_3} alt="farida-pic" />
-            </div>
-          </div>
-          <div className="gch-home-des">
-            <div className="gch-home-image">
-              <img src={RKJewelry_4} alt="farida-pic" />
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
