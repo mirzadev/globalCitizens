@@ -1,0 +1,126 @@
+.form-container {
+  margin: 4rem 6rem;
+}
+#divResults {
+  background: rgb(204, 227, 236);
+  color: black;
+  border-radius: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+.form-container h1 {
+  color: navy;
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.form-items {
+  display: flex;
+}
+.form-items form {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+}
+
+.form-items input {
+  font-size: 1.2rem;
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+  font-family: sans-serif;
+  color: black;
+}
+
+.form-items label {
+  font-size: 1.3rem;
+  font-weight: bold;
+  align-content: start;
+}
+
+.form-items textarea {
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #2a2a2a;
+}
+
+.form-items button {
+  background: rgb(111, 138, 238);
+  padding: 1rem;
+  color: whitesmoke;
+  border-radius: 0.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.contact-sections {
+  margin: 4rem 8rem;
+  color: navy;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+.contact-sections section {
+  margin-bottom: 3rem;
+}
+#contact_email,
+#address-link {
+  text-decoration: none;
+  color: navy;
+}
+
+.twiter {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+@media screen and (max-width: 850px) {
+  .form-container {
+    margin: 2rem 1rem;
+  }
+  #divResults {
+    background: none;
+    float: none;
+    border-radius: 0.8rem;
+    color: rgb(159, 49, 187);
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+  }
+
+  .form-container h1 {
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  .form-items form {
+    padding-top: 2rem;
+    width: 100%;
+  }
+  .form-items {
+    flex-direction: column;
+  }
+
+  .form-items form ::placeholder {
+    font-size: 1rem;
+  }
+  .contact-sections {
+    margin: 1rem 1rem;
+    font-size: 1rem;
+    display: 100%;
+    align-items: center;
+  }
+
+  .contact-sections section {
+    margin-bottom: 2rem;
+    align-content: center;
+  }
+
+  .social-section {
+    display: 100%;
+  }
+}

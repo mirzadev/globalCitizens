@@ -3,6 +3,7 @@ import Navbar from "./Components/NavbarItems/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Routes/Home";
 import About from "./Routes/About";
+import Contact from "./Routes/Contact";
 
 export default function App() {
   return (
@@ -12,8 +13,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        {/* <Route path="/contact" element={<Contact />} />
-        <Route path="/children" element={<Children />} />
+        <Route path="/contact" element={<Contact />} />
+        {/*<Route path="/children" element={<Children />} />
         <Route path="/events" element={<Events />} />
         <Route path="/ekCupCha" element={<EkCupCha />} />
         <Route path="/boishakh" element={<Boishakh />} />
