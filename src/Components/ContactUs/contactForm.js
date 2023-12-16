@@ -27,7 +27,7 @@ function ContactForm() {
         (result) => {
           console.log(result.text);
           document.getElementById("divResults").innerHTML =
-            "Your message has been successfully sent to Karigor Production. Thanks for contacting Karigor.";
+            "Your message has been successfully sent to Global Citizens For Humanity. Thanks for contacting us.";
           messageFadeout(); //executing fadeout
         },
         (error) => {
