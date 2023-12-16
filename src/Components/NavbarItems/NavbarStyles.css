@@ -107,6 +107,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background: rgb(246, 243, 235);
     width: 100%;
     height: auto;
     position: absolute;

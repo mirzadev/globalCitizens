@@ -18,10 +18,10 @@ function ContactForm() {
 
     emailjs
       .sendForm(
-        "service_p774ll6",
-        "template_wmlimtk",
+        "service_zkk8d03",
+        "template_qa5ab0i",
         form.current,
-        "06t5He3Ms9p98XTn7"
+        "4dtjAuhZOvkBovNXV"
       )
       .then(
         (result) => {
