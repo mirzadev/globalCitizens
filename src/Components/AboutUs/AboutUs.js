@@ -35,6 +35,7 @@ function AboutUs() {
           <img alt="img" src={GCHBackground} />
         </div>
       </div>
+
       <div className="gch-reaction">
         <h2>When We Do</h2>
         <p>
@@ -48,6 +49,7 @@ function AboutUs() {
           <img alt="img" src={GCH_Reaction_2} />
         </div>
       </div>
+
       <div className="gch-reaction">
         <h2>How Do We Get Funds</h2>
         <p>

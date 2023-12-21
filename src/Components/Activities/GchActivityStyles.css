@@ -1,87 +1,59 @@
-.about-container {
+.activity-container {
   margin: 2rem 4rem;
   color: rgb(6, 6, 146);
 }
 
-.about-container h1 {
+.activity-container h1 {
   font-size: 2.65rem;
 }
 
-.about-container h2 {
+.activity-container h2 {
   text-align: start;
   font-size: 2rem;
 }
-.about-container p {
+.activity-container p {
   font-size: 1.2rem;
   padding-bottom: 0.3rem;
 }
 
-.background-des {
+.rohingya-des {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 0.5rem;
 }
 
-.background-text {
-  width: 60%;
+.rohingya-text {
+  width: 50%;
   text-align: start;
   padding: 1rem;
   box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
   border-radius: 7px;
   cursor: pointer;
-  margin-right: 4rem;
+  margin-right: 2rem;
+  background-color: rgb(244, 234, 223);
 }
 
-.background-text h2 {
+.rohingya-text h2 {
   padding-bottom: 1rem;
   justify-content: center;
   font-size: 1.6rem;
 }
 
-.background-text p {
+.rohingya-text p {
   text-align: justify;
   font-size: 1.2rem;
 }
 
-.background-image {
+.rohingya-image {
   position: relative;
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  z-index: -99;
-}
-
-.background-image img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 6px;
-  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
-}
-
-.gch-reaction {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-}
-
-.gch-reaction p {
-  margin-top: 1rem;
-  text-align: justify;
-}
-
-.about-reaction_image {
-  display: flex;
-  position: relative;
-  margin-top: 1.7rem;
   width: 50%;
   display: flex;
   justify-content: space-between;
   z-index: -99;
 }
 
-.about-reaction_image img {
+.rohingya-image img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -89,60 +61,107 @@
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
-.about-reaction_image img:nth-child(1) {
-  margin-right: 0.8rem;
+.pitition-header {
+  margin-top: 2rem;
 }
-.about-reaction_image img:nth-child(2) {
-  margin-left: 0.8rem;
+
+.pitition-des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.pitition-text {
+  width: 50%;
+  text-align: start;
+  font-size: 1rem;
+  padding: 1rem;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 2rem;
+  background-color: rgb(244, 234, 223);
+}
+.pitition-text p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.pitition-image {
+  position: relative;
+  width: 50%;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.pitition-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
 @media screen and (max-width: 850px) {
-  .about-container {
+  .activity-container {
     margin: 1.5rem 1rem;
   }
 
-  .about-container h1 {
+  .activity-container h1 {
     font-size: 1.5rem;
   }
 
-  .about-container h2 {
+  .activity-container h2 {
     font-size: 1.4rem;
   }
-  .about-container p {
+  .activity-container p {
     font-size: 1rem;
   }
-  .background-des {
+  .rohingya-des {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 0.5rem;
     padding-left: 0;
   }
-  .background-text {
+  .rohingya-text {
     width: 100%;
     text-align: start;
     border-radius: 7px;
     margin-right: 0;
   }
-  .background-text h2 {
+  .rohingya-text h2 {
     justify-content: space-evenly;
     font-size: 1.3rem;
   }
-  .background-image,
-  .about-reaction_image {
+
+  .pitition-des {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .pitition-text {
+    width: 100%;
+    text-align: start;
+    font-size: 0.8rem;
+    padding-right: 1.5rem;
+    margin-left: 0.3rem;
+    margin-right: 0rem;
+  }
+
+  .pitition-text h2 {
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+  }
+
+  .pitition-image {
     width: 100%;
     margin: 1.5rem 0;
   }
-  .about-reaction_image {
-    display: flex;
-    flex-direction: column;
-  }
 
-  .about-reaction_image img:nth-child(1) {
-    margin-right: 0rem;
-    margin-bottom: 0.7rem;
-  }
-  .about-reaction_image img:nth-child(2) {
-    margin-left: 0rem;
-    margin-top: 0.7rem;
+  .rohingya-image {
+    width: 100%;
+    margin: 1.5rem 0;
   }
 }
