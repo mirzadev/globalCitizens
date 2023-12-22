@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 30px;
+  padding: 0 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
   width: 98%;
   height: 75px;
@@ -32,7 +32,7 @@ body {
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(7, auto);
-  grid-gap: 7px;
+  grid-gap: 1px;
   list-style: none;
   align-items: center;
 }
@@ -42,7 +42,7 @@ body {
   color: navy;
   font-size: 1rem;
   font-weight: 600;
-  padding: 1.2rem 1rem;
+  padding: 1.2rem 0.5rem;
   white-space: nowrap;
 }
 
