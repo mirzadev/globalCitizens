@@ -6,6 +6,8 @@ import DrinkingWater1 from "../Assets/Activity/rohingya-4.jpg";
 import DrinkingWater2 from "../Assets/Activity/rohingya-5.jpg";
 import RetailSecurity1 from "../Assets/Activity/retailSecurity-1.jpg";
 import RetailSecurity2 from "../Assets/Activity/retailSecurity-2.jpg";
+import FoodDorian1 from "../Assets/Activity/dorian-1.jpg";
+import FoodDorian2 from "../Assets/Activity/dorian-2.jpg";
 function GchActivity() {
   return (
     <div className="activity-container">
@@ -15,18 +17,18 @@ function GchActivity() {
       <div className="rohingya-des">
         <div className="rohingya-text">
           <p>
-            Donating medicine to Rohingys Refugees was the first activities of
-            Global Citizens for Humanity with the help of Bangladesh Army. GCH
-            members collected funds from their own members and donated medicine
-            for about 350,000.00 Taka. The medicine was purchased from
-            Bangladesh and coordination was done with Bangladesh Army medical
-            team who assisted with free prescription and medicine provided by
-            GCH.The medicine was purchased from Bangladesh and coordination was
-            done with Bangladesh Army medical team who assisted with free
-            prescription and medicine provided by GCH.The medicine was purchased
-            from Bangladesh and coordination was done with Bangladesh Army
-            medical team who assisted with free. from Bangladesh and
-            coordination was done with Bangladesh .
+            Due to the atrocity and armed conflict since August 2017 in Rakhine
+            State of Myanmar, the Rohingya people fled and seek refugee across
+            the border in Bangladesh. They are Muslim by religion and the
+            military ruler of Myanmar denied their citizenship. After entering
+            Myanmar, the Bangladesh Government accepted them as refugee and
+            extended all out support in the southern part of the country in Coxs
+            Bazar district. GCH, being a humanitarian organization, raised their
+            voice for humanity. They collected petition from thousands of the
+            peoples the community to submit to congress man for further action
+            against Myanmar ruler. In this process most of the people in South
+            Florida willingly signed our petition to support this noble cause
+            against military rulers in Myanmar.
           </p>
         </div>
         <div className="rohingya-image">
@@ -45,19 +47,19 @@ function GchActivity() {
         </div>
         <div className="pitition-text">
           <p>
-            Global Citizens for Humanity Inc. is a Florida-based nonprofit
-            organization established in 2018 consisting of members of the
-            diverse community with the goal to “Protect, Progress, and Preserve
-            the Prosperity of Humanity” through actively participating in
-            humanitarian efforts for local communities as well as victims of
-            national and international natural disasters and refugees of many
-            origins.Global Citizens for Humanity Inc. is a Florida-based
-            nonprofit organization established in 2018 consisting of members of
-            the diverse community with the goal to “Protect, Progress, and
-            Preserve the Prosperity of Humanity” through actively participating
-            in humanitarian efforts for local communities as well as victims of
-            national and international natural disasters and refugees of many
-            origins.
+            After collection of signatures from the community people in the
+            petition to do justice with the Rohingya refugees in Bangladesh,
+            members of Global Citizens for Humanity along with community leaders
+            contacted the local Congressman Ted Deutch and Congresswomen Lois
+            Frankel of the 22nd Congressional district of Florida. The
+            congressional district office gladly accepted the petition and
+            raised their voice in US Congress against military atrocity of
+            Myanmar dictators. Later on, a resolution was passed in 116th US
+            congress expressing the sense of the Senate that the Governments of
+            Burma and Bangladesh ensure the safe, dignified, voluntary, and
+            sustainable return of the Rohingya refugees who have been displaced
+            by the campaign of ethnic cleansing conducted by the Burmese
+            military.
           </p>
         </div>
       </div>
@@ -127,6 +129,30 @@ function GchActivity() {
         </div>
         <div className="retailSecurity-image-2">
           <img alt="img" src={RetailSecurity2} />
+        </div>
+      </div>
+      <h2 className="pitition-header" center>
+        Food Aid to Bahama After Hurricane Dorian
+      </h2>
+      <div className="pitition-des">
+        <div className="pitition-image">
+          <div>
+            <img alt="img" src={FoodDorian1} />
+          </div>
+        </div>
+        <div className="pitition-image-1">
+          <div>
+            <img alt="img" src={FoodDorian2} />
+          </div>
+        </div>
+        <div className="pitition-text">
+          <p>
+            Hurricane Dorian was an extremely powerful and catastrophic Category
+            5 Atlantic hurricane, which became the most intense tropical cyclone
+            on record to strike the Bahamas on 24 August, 2019. GCH immediately
+            responded to the need of Bahama people with dry food and important
+            grocery items.
+          </p>
         </div>
       </div>
     </div>
