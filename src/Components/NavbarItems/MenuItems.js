@@ -41,31 +41,13 @@ export const MenuItems = [
 export const EventDropDownMenu = [
   {
     id: 1,
-    title: "Pohela Boishakh",
-    url: "/boishakh",
+    title: "Ongoing",
+    url: "/ongoing",
     CName: "dropdown-links",
   },
   {
     id: 2,
-    title: "Ek Cup Cha",
-    url: "/ekCupCha",
-    CName: "dropdown-links",
-  },
-  {
-    id: 3,
-    title: "Cultural Events",
-    url: "/kpCulture",
-    CName: "dropdown-links",
-  },
-  {
-    id: 4,
-    title: "Karigor News",
-    url: "/kpNews",
-    CName: "dropdown-links",
-  },
-  {
-    id: 5,
-    title: "Upcoming Events",
+    title: "Upcoming",
     url: "/upcoming",
     CName: "dropdown-links",
   },
