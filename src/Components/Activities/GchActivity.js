@@ -4,6 +4,10 @@ import GCH_Pitition from "../Assets/Activity/rohingya-2.jpg";
 import GCHMedicineSp from "../Assets/Activity/rohingya-3.jpg";
 import DrinkingWater1 from "../Assets/Activity/rohingya-4.jpg";
 import DrinkingWater2 from "../Assets/Activity/rohingya-5.jpg";
+import HurricaneMichael1 from "../Assets/Activity/HuricaneMichael-1.jpg";
+import HurricaneMichael2 from "../Assets/Activity/HuricaneMichael-2.jpg";
+import MotherLang1 from "../Assets/Activity/motherlang-1.jpg";
+import MotherLang2 from "../Assets/Activity/motherlang-2.jpg";
 import RetailSecurity1 from "../Assets/Activity/retailSecurity-1.jpg";
 import RetailSecurity2 from "../Assets/Activity/retailSecurity-2.jpg";
 import FoodDorian1 from "../Assets/Activity/dorian-1.jpg";
@@ -108,6 +112,63 @@ function GchActivity() {
             came forward to arrange safe drinking water in limited scale within
             their capacity. President of GCH personally visited the camp and
             extended the required help to the need in terms of drinking water.
+          </p>
+        </div>
+      </div>
+
+      <h2 className="rohingya-header" center>
+        Assistance to Hurricane Michael Victims
+      </h2>
+      <div className="hurricane-des">
+        <div className="hurricane-michael">
+          <div className="hurricane-text">
+            <p>
+              Major Hurricane Michael was the 13th named storm of the 2018
+              Atlantic Hurricane Season. So far, there have been 15 named storms
+              during the 2018 Atlantic Hurricane Season - 7 tropical storms and
+              8 hurricanes. Two of those eight hurricanes strengthened into a
+              major hurricane: Florence and Michael.Michael was the strongest
+              hurricane on record to make landfall in the Florida panhandle with
+              maximum sustained wind of 160 mph and a minimum pressure of 919
+              mb.
+            </p>
+            <p>
+              GCH immediate responded and stood beside affected people with the
+              generous donation from all members of the organization. To
+              effectively help the need, the donation was sent to the affected
+              people with the help of American Red Cross.
+            </p>
+          </div>
+          <div className="hurricane-image-1">
+            <img alt="img" src={HurricaneMichael1} />
+          </div>
+        </div>
+
+        <div className="hurricane-image-2">
+          <img alt="img" src={HurricaneMichael2} />
+        </div>
+      </div>
+      <h2 className="pitition-header" center>
+        Organizing International Mother's Language Day-2019
+      </h2>
+      <div className="pitition-des">
+        <div className="pitition-image">
+          <div>
+            <img alt="img" src={MotherLang1} />
+          </div>
+        </div>
+        <div className="pitition-image-1">
+          <div>
+            <img alt="img" src={MotherLang2} />
+          </div>
+        </div>
+        <div className="pitition-text">
+          <p>
+            International Mother's Language day is one of the significant event
+            for Bengali speaking people. With the help of Palm Beach Sherif and
+            ABPAC - Global Citizens for Humanity organized an event where
+            childrens were focused to learn the importance of mother language
+            for a nation. The whole program was financed by members of GCH.
           </p>
         </div>
       </div>

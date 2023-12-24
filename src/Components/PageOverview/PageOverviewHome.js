@@ -2,7 +2,7 @@ import "./PageOverviewStyles.css";
 import PageOverviewData from "./PageOverviewData";
 import PageOverview1 from "../Assets/AboutUs/aboutUsCoverPic.jpg";
 
-import PageOverview2 from "../Assets/Home/GCH_home-4.jpg";
+import PageOverview2 from "../Assets/Activity/ActivityCoverPic.jpg";
 
 import PageOverview3 from "../Assets/Home/GCH_home-4.jpg";
 
