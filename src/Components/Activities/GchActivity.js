@@ -12,6 +12,17 @@ import RetailSecurity1 from "../Assets/Activity/retailSecurity-1.jpg";
 import RetailSecurity2 from "../Assets/Activity/retailSecurity-2.jpg";
 import FoodDorian1 from "../Assets/Activity/dorian-1.jpg";
 import FoodDorian2 from "../Assets/Activity/dorian-2.jpg";
+import CoronaSupport1 from "../Assets/Activity/CoronaVirus-1.jpg";
+import CoronaSupport2 from "../Assets/Activity/CoronaVirus-2.jpg";
+import MentalHealth1 from "../Assets/Activity/healthAwareness-1.jpg";
+import MentalHealth2 from "../Assets/Activity/healthAwareness-2.jpg";
+import AntiPlastic1 from "../Assets/Activity/Anti-Plastic-1.jpg";
+import AntiPlastic2 from "../Assets/Activity/Anti-Plastic-2.jpg";
+import TurkeyEQ1 from "../Assets/Activity/TurkeyEarthQuake-1.jpg";
+import TurkeyEQ2 from "../Assets/Activity/TurkeyEarthQuake-2.jpg";
+import GazaChildren1 from "../Assets/Activity/GazaHelp-1.jpg";
+import GazaChildren2 from "../Assets/Activity/GazaHelp-2.jpg";
+import GazaChildren3 from "../Assets/Activity/GazaHelp-3.jpg";
 function GchActivity() {
   return (
     <div className="activity-container">
@@ -214,6 +225,157 @@ function GchActivity() {
             responded to the need of Bahama people with dry food and important
             grocery items.
           </p>
+        </div>
+      </div>
+      <h2 className="rohingya-header" center>
+        Health Awareness During Covid-19
+      </h2>
+      <div className="rohingya-des">
+        <div className="rohingya-text">
+          <p>
+            COVID-19 was one of the largest challenge to the humanity. GCH
+            members actively stood beside the affected people by providing
+            support in the form of tele medicine, food support and awareness
+            programs. GCH telecasted VDOs that helped to protect themselves
+            against COVID.
+          </p>
+        </div>
+        <div>
+          <a href="https://www.youtube.com/watch?v=ANrvweH-RZE" target="_blank">
+            <img
+              id="corona-support-image-1"
+              alt="corona-vdo"
+              src={CoronaSupport1}
+            />
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.youtube.com/watch?v=oOOwJHLUKVY&t=152s"
+            target="_blank"
+          >
+            <img
+              id="corona-support-image-2"
+              alt="corona-vdo"
+              src={CoronaSupport2}
+            />
+          </a>
+        </div>
+      </div>
+      <h2 className="pitition-header" center>
+        Seminars on Mental Health
+      </h2>
+      <div className="pitition-des">
+        <div>
+          <a href="https://www.youtube.com/watch?v=DgY91FiyXtg" target="_blank">
+            <img
+              id="corona-support-image-1"
+              alt="corona-vdo"
+              src={MentalHealth1}
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://www.youtube.com/watch?v=DgY91FiyXtg" target="_blank">
+            <img
+              id="corona-support-image-2"
+              alt="corona-vdo"
+              src={MentalHealth2}
+            />
+          </a>
+        </div>
+
+        <div className="pitition-text">
+          <p>
+            Mental health for the childrens are one of the most concerned areas
+            for the parents in the global community. Accordingly GCH organized
+            seminars with the expertise from different locations who identified
+            the main reasons of mental illness and possible responses for the
+            parents in the world.
+          </p>
+        </div>
+      </div>
+      <h2 className="rohingya-header" center>
+        Anti Plastic Campaign
+      </h2>
+      <div className="rohingya-des">
+        <div className="rohingya-text">
+          <p>
+            The Anti Plastic Campaign was organized to create awareness among
+            the public about the adverse effect of plastic usage and to make
+            think them about stopping of its usage. As part of the campaign, on
+            December 11, 2021, GCH successfully arranged cleaning Phipps Ocean
+            Park and Beach in Palm Beach with the help of students and
+            volunteers. This is an ongoing process which GCH arranges once or
+            twice a year. It is one of our very successful project. This beach
+            cleaning process is organized mostly on Sundays or any holidays when
+            the GCH members are normally of from their professional duties.
+          </p>
+        </div>
+        <div className="retailSecurity-image-1">
+          <img alt="img" src={AntiPlastic1} />
+        </div>
+        <div className="retailSecurity-image-2">
+          <img alt="img" src={AntiPlastic2} />
+        </div>
+      </div>
+      <h2 className="pitition-header" center>
+        Assistance to Turkey Earth Quake
+      </h2>
+      <div className="pitition-des">
+        <div className="pitition-image">
+          <div>
+            <img alt="img" src={TurkeyEQ1} />
+          </div>
+        </div>
+        <div className="pitition-image-1">
+          <div>
+            <img alt="img" src={TurkeyEQ2} />
+          </div>
+        </div>
+        <div className="pitition-text">
+          <p>
+            On 06 February, 2023 a 7.8 Mw earthquake struck southern and central
+            Turkey and northern and western Syria and caused widespread damage
+            and fatalities to thousands of the peoples. GCH immediately
+            responded to the humanity and donated almost tents spending about 10
+            thousands US Dollar. The tents were send to Turkey using Turkish
+            Aitlines.
+          </p>
+        </div>
+      </div>
+
+      <h2 className="rohingya-header" center>
+        Assistance to Childrens in Gaza
+      </h2>
+      <div className="gaza-des">
+        <div className="gaza-help">
+          <div className="gaza-text">
+            <p>
+              The Israeli-Palestinian conflict is over who gets what land and
+              how it's controlled. Though both Jews and Arab Muslims date their
+              claims to the land back a couple thousand years, the current
+              political conflict began in the early 20th century. Recently an
+              armed conflict between Israel and Hamas-led Palestinian militant
+              groups has been taking place chiefly in and around the Gaza Strip
+              since 7 October 2023, with clashes also taking place in the West
+              Bank and Israel-Lebanon border.
+            </p>
+            <p className="gaza-para-1">
+              GCH is always beside the humanity. Accordingly GCH members donated
+              funds and sent to assist the childrens in Gaza through Unicef.
+            </p>
+          </div>
+          <div className="gaza-image">
+            <img alt="img" src={GazaChildren1} />
+          </div>
+          <div className="gaza-image-1">
+            <img alt="img" src={GazaChildren2} />
+          </div>
+        </div>
+
+        <div className="gaza-image-2">
+          <img alt="img" src={GazaChildren3} />
         </div>
       </div>
     </div>
