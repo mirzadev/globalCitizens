@@ -17,7 +17,8 @@
 }
 
 .rohingya-des,
-.hurricane-des {
+.hurricane-des,
+.gaza-des {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,7 +34,8 @@
   cursor: pointer;
   margin-right: 2rem;
 }
-.hurricane-text {
+.hurricane-text,
+.gaza-text {
   width: 100%;
   text-align: start;
   padding: 1rem;
@@ -43,21 +45,24 @@
   margin-right: 2rem;
 }
 
-.hurricane-michael {
+.hurricane-michael,
+.gaza-help {
   width: 54%;
   display: flex;
   flex-direction: column;
 }
 
-.rohingya-text,
-.hurricane-text h2 {
+.rohingya-text h2,
+.hurricane-text h2,
+.gaza-text h2 {
   padding-bottom: 1rem;
   justify-content: center;
   font-size: 1.6rem;
 }
 
-.rohingya-text,
-.hurricane-text p {
+.rohingya-text p,
+.hurricane-text p,
+.gaza-text p {
   text-align: justify;
   font-size: 1.2rem;
 }
@@ -72,6 +77,16 @@
   z-index: -99;
 }
 
+#corona-support-image-1,
+#corona-support-image-2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+
 .rohingya-image img {
   width: 100%;
   height: auto;
@@ -80,14 +95,16 @@
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
-.retailSecurity-image-1 img {
+.retailSecurity-image-1 img,
+#corona-support-image-1 img {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 6px;
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
-.retailSecurity-image-2 img {
+.retailSecurity-image-2 img,
+#corona-support-image-1 img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -95,7 +112,9 @@
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
-.hurricane-image-1 img {
+.hurricane-image-1 img,
+.gaza-image img,
+.gaza-image-1 img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -104,7 +123,8 @@
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
-.hurricane-image-2 img {
+.hurricane-image-2 img,
+.gaza-image-2 img {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -162,8 +182,13 @@
 }
 
 .pitition-image-1,
-.retailSecurity-image-2 {
+.retailSecurity-image-2,
+#corona-support-image-2 {
   margin-left: 1rem;
+}
+
+.gaza-para-1 {
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 850px) {
@@ -182,21 +207,24 @@
     font-size: 1rem;
   }
   .rohingya-des,
-  .hurricane-des {
+  .hurricane-des,
+  .gaza-des {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 0.5rem;
     padding-left: 0;
   }
   .rohingya-text,
-  .hurricane-text {
+  .hurricane-text,
+  .gaza-text {
     width: 100%;
     text-align: start;
     border-radius: 7px;
     margin-right: 0;
   }
-  .rohingya-text,
-  .hurricane-text h2 {
+  .rohingya-text h2,
+  .hurricane-text h2,
+  .gaza-text h2 {
     justify-content: space-evenly;
     font-size: 1.3rem;
   }
@@ -224,17 +252,21 @@
   .pitition-image,
   .pitition-image-1,
   .retailSecurity-image-1,
-  .retailSecurity-image-2 {
+  .retailSecurity-image-2,
+  #corona-support-image-1,
+  #corona-support-image-2 {
     width: 100%;
-    margin: 1.5rem 0;
+    margin: 0.6rem 0;
   }
-  .hurricane-michael {
+  .hurricane-michael,
+  .gaza-help {
     width: 100%;
     margin-top: 1rem;
   }
 
   .pitition-image-1,
-  .retailSecurity-image-2 {
+  .retailSecurity-image-2,
+  #corona-support-image-2 {
     margin-left: 0;
   }
 
@@ -245,5 +277,9 @@
 
   .activity-container h2 {
     font-size: 1.3rem;
+  }
+
+  .gaza-image-1 img {
+    margin-top: 0.8rem;
   }
 }

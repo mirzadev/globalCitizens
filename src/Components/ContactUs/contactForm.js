@@ -96,7 +96,7 @@ function ContactForm() {
             <div>
               <a
                 id="address-link"
-                href="https://goo.gl/maps/ACDRTDuS95NyYoPA8"
+                href="https://maps.app.goo.gl/ikGgEMFzbUWarHpu7"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -116,7 +116,7 @@ function ContactForm() {
             >
               <img src={FaceBook} alt="facebook" height="50" width="50" />
             </a>
-            <a href="/">
+            <a href="https://twitter.com/home" target="_blank" rel="noreferrer">
               <img
                 className="twiter"
                 src={Twiter}
@@ -126,7 +126,7 @@ function ContactForm() {
               />
             </a>
             <a
-              href="https://www.youtube.com/@karigor_production"
+              href="https://www.youtube.com/channel/UCab9jAh9INNKgmZlY8bx8jg"
               target="_blank"
               rel="noreferrer"
             >
