@@ -14,10 +14,6 @@
   font-size: 1.2rem;
   padding-bottom: 0.3rem;
 }
-.GCH-mission-vission {
-  font-weight: bold;
-  font-style: italic;
-}
 
 .HomeMain-des {
   display: flex;
@@ -27,7 +23,7 @@
 }
 
 .mission-des {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: space-between;
   margin-top: 2.5rem;
@@ -60,14 +56,14 @@
 }
 
 .mission-text {
-  width: 35%;
+  width: 100%;
   text-align: start;
   font-size: 1rem;
   padding: 1rem;
   box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
   border-radius: 7px;
   cursor: pointer;
-  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 
 .objective-text {
@@ -108,7 +104,6 @@
   flex-direction: column;
   position: relative;
   width: 60%;
-  display: flex;
   justify-content: space-between;
   z-index: -99;
 }
@@ -118,14 +113,11 @@
 }
 
 .mission-image {
+  display: flex;
   position: relative;
-  width: 60%;
+  width: 100%;
   justify-content: space-between;
   z-index: -99;
-}
-
-.mission-image-2 {
-  margin-top: 2rem;
 }
 
 .home-image img {
@@ -150,6 +142,11 @@
   object-fit: cover;
   border-radius: 6px;
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.mission-image img:nth-child(2) {
+  margin-left: 1rem;
+  width: 100%;
 }
 
 @media screen and (max-width: 850px) {
