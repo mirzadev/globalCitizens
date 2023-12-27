@@ -4,6 +4,7 @@ import homeMain_1 from "../Assets/Home/GCH_home-1.jpg";
 import homeMain_2 from "../Assets/Home/GCH_home-2.jpg";
 import homeMain_3 from "../Assets/Home/GCH_home-3.jpg";
 import GCH_Mission from "../Assets/Home/GCH_home-4.jpg";
+import GCH_Mission1 from "../Assets/Home/GCH_home-4A.jpg";
 import GCHObjectives from "../Assets/Home/GCH_home-5.jpg";
 import GCHObjectives_1 from "../Assets/Home/GCH_home-6.jpg";
 const HomeMain = () => {
@@ -16,35 +17,25 @@ const HomeMain = () => {
       </p>
       <h2>GCH Overview</h2>
       <HomeMainData
-        text="Global Citizens for Humanity (GCH) is a charitable and educational non profit organization under section 501(c)(3) of the Internal Revenue Code. No part of GCH net earnings shall inure to the benefit of, or be distributable to its members, trustees, officers, or other private persons, except that the corporation shall be authorized and empowered to pay reasonable compensation for services rendered and to make payments and distributions in furtherance for the purposes set forth in the purpose clause hereof."
+        text="Global Citizens for Humanity (GCH) is a charitable and educational non profit organization was established in 2018 under section 501(c)(3) of the Internal Revenue Code by few dedicated professionals towards humanity. Since inception GCH is engaged towards addressing any humanitarian needs in the world irrespective of nationality, religion or color. Its' mission, vision and objectives are aimed at achieving all kinds of responses within capacity towards humanity covering natural calamities, environmental disaster or political / racial issues."
         img1={homeMain_1}
         img2={homeMain_2}
         img3={homeMain_3}
       />
 
       <div className="mission-des">
-        <div className="mission-image">
-          <div>
-            <img alt="img" src={GCH_Mission} />
-          </div>
-        </div>
         <div className="mission-text">
           <h2>GCH Mission & Vision</h2>
           <p>
-            Global Citizens for Humanity Inc. is a Florida-based nonprofit
-            organization established in 2018 consisting of members of the
-            diverse community with the goal to “Protect, Progress, and Preserve
-            the Prosperity of Humanity” through actively participating in
-            humanitarian efforts for local communities as well as victims of
-            national and international natural disasters and refugees of many
-            origins. Vision & Mission:
-          </p>
-          <p className="GCH-mission-vission">
             Global Citizens for Humanity envisions a united world irrespective
             of race, religion, color, ethnicity or gender differences to help
             reduce and combat inequality, unfair competition, war, famine,
             refugee crises, climate disasters, and economic poverty.
           </p>
+        </div>
+        <div className="mission-image">
+          <img alt="img" src={GCH_Mission} />
+          <img alt="img" src={GCH_Mission1} />
         </div>
       </div>
 
