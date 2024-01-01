@@ -1,5 +1,5 @@
 import Navbar from "../Components/NavbarItems/Navbar";
-// import Footer from "../Components/Footer/";
+import Footer from "../Components/Footer/Footer";
 import ContactForm from "../Components/ContactUs/contactForm";
 import contactCoverPic from "../Components/Assets/ContactUs/contactUsCoverPic.jpg";
 import HeroOther from "../Components/HeroSection/HeroOther";
@@ -15,7 +15,7 @@ function Contact() {
         btnClass="hide"
       />
       <ContactForm />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

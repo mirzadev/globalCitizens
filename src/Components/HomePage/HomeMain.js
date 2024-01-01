@@ -17,7 +17,7 @@ const HomeMain = () => {
       </p>
       <h2>GCH Overview</h2>
       <HomeMainData
-        text="Global Citizens for Humanity (GCH) is a charitable and educational non profit organization was established in 2018 under section 501(c)(3) of the Internal Revenue Code by few dedicated professionals towards humanity. Since inception GCH is engaged towards addressing any humanitarian needs in the world irrespective of nationality, religion or color. Its' mission, vision and objectives are aimed at achieving all kinds of responses within capacity towards humanity covering natural calamities, environmental disaster or political / racial issues."
+        text="Global Citizens for Humanity (GCH) is a charitable and educational non-profit organization that was established in 2018 under section 501(c)(3) of the Internal Revenue Code by a few dedicated professionals towards humanity. Since inception GCH has been engaged towards addressing any humanitarian needs in the world irrespective of nationality, religion, or color. Its' mission, vision and objectives are aimed at achieving all kinds of responses within capacity towards humanity covering natural calamities, environmental disaster, or political / racial issues."
         img1={homeMain_1}
         img2={homeMain_2}
         img3={homeMain_3}
@@ -28,7 +28,7 @@ const HomeMain = () => {
           <h2>GCH Mission & Vision</h2>
           <p>
             Global Citizens for Humanity envisions a united world irrespective
-            of race, religion, color, ethnicity or gender differences to help
+            of race, religion, color, ethnicity, or gender differences to help
             reduce and combat inequality, unfair competition, war, famine,
             refugee crises, climate disasters, and economic poverty.
           </p>
@@ -59,11 +59,11 @@ const HomeMain = () => {
               </li>
               <li>
                 Promote mental health awareness among children, parents,
-                teachers and the community at large.
+                teachers, and the community at large.
               </li>
               <li>
                 Help coordinate available resources for youngsters in building
-                their careers, occupation and their livelihood.
+                their careers, occupation, and their livelihood.
               </li>
               <li>
                 Fund raising activities raise for charitable humanitarian needs.

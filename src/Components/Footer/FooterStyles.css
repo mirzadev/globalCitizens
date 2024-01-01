@@ -1,0 +1,251 @@
+.footer {
+  padding: 3rem 6rem;
+  background: rgb(91, 91, 250);
+  color: whitesmoke;
+}
+.top {
+  display: flex;
+  align-items: center;
+  text-align: start;
+  flex-wrap: wrap;
+}
+#footer-header {
+  text-align: start;
+  justify-content: space-around;
+}
+.footer-link {
+  text-decoration: none;
+}
+#footer-app-title {
+  color: whitesmoke;
+  font-size: 1.8rem;
+  font-weight: 800;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.footer-title {
+  display: flex;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcoming-link {
+  text-decoration: none;
+}
+
+.upcomingEvents h1 {
+  color: whitesmoke;
+  font-size: 1.8rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.upcomingEvents:hover h1 {
+  color: rgb(148, 236, 15);
+  transform: scale(1.4);
+  margin-right: 5rem;
+}
+
+.bottom {
+  padding-top: 2rem;
+  display: flex;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer h4 {
+  font-size: 1.5rem;
+  padding: 1rem 0 0.8rem 0;
+}
+
+.twiter {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-div h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.social-media a:hover {
+  transform: scale(1.2);
+}
+
+.useful-links h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.link-menues {
+  display: flex;
+}
+
+.link-menu-1,
+.link-menu-2 {
+  display: flex;
+  flex-direction: column;
+}
+.link-menu-1 {
+  padding-right: 3rem;
+}
+
+.useful-links a:hover {
+  color: greenyellow;
+}
+
+.web-address {
+  margin-top: -0.5rem;
+  font-weight: bold;
+}
+
+.footer-contact-us h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.location-address {
+  display: flex;
+}
+
+.address-loc {
+  margin-left: 1.3rem;
+}
+
+.location-address p,
+.telephone-number,
+.email-address {
+  font-size: 1rem;
+}
+
+.footer-contact-us a img:hover {
+  transform: scale(1.2);
+}
+
+.telephone,
+.email {
+  display: flex;
+}
+
+.telephone-number,
+.email-address {
+  margin-left: 2rem;
+}
+
+.bottom a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.footer-contact-us a:hover {
+  color: greenyellow;
+}
+
+.copyright-note {
+  display: flex;
+  margin-top: 2rem;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+.copyright-note a {
+  text-decoration: none;
+  color: #fafafa;
+  margin-left: 1rem;
+}
+
+.copyright-note a:hover {
+  color: greenyellow;
+  font-weight: bold;
+}
+
+.copyright-note a img:hover {
+  transform: scale(1.2);
+}
+
+.footer a {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    padding: 1.5rem 2rem;
+  }
+
+  #footer-app-title {
+    font-size: 1.2rem;
+  }
+
+  .footer h4 {
+    font-size: 1.2rem;
+  }
+
+  .footer a {
+    font-size: 0.9rem;
+  }
+
+  .copyright-note {
+    font-size: 0.9rem;
+  }
+
+  #footer-header {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* .upcomingEvents {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+
+  .upcomingEvents h1 {
+    font-size: 1.2rem;
+    justify-content: center;
+  }
+
+  .upcomingEvents:hover h1 {
+    transform: scale(1.2);
+    margin-right: 0;
+  } */
+
+  #footer-header,
+  .social-media-div,
+  .useful-links,
+  .footer-contact-us {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+  #footer-header p {
+    font-size: 0.9rem;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .location-address p,
+  .telephone-number,
+  .email-address {
+    font-size: 0.9rem;
+  }
+}

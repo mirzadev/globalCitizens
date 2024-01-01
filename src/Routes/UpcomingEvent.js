@@ -1,5 +1,5 @@
 import HeroOther from "../Components/HeroSection/HeroOther";
-// import Footer from "../Components/Footer/Footer";
+import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/NavbarItems/Navbar";
 import EventUpcoming from "../Components/Upcoming/EventsUpcoming";
 import UpcomingCoverPic from "../Components/Assets/Upcoming/upcomingEvent.jpg";
@@ -15,7 +15,7 @@ function Upcoming() {
         btnClass="hide"
       />
       <EventUpcoming />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

@@ -84,17 +84,17 @@ function GchActivity() {
       <div className="rohingya-des">
         <div className="rohingya-text">
           <p>
-            Donating medicine to Rohingys Refugees was the first activities of
+            Donating medicine to Rohingya Refugees was the first activities of
             Global Citizens for Humanity with the help of Bangladesh Army. GCH
             members collected funds from their own members and donated medicine
             for about 350,000.00 Taka. The medicine was purchased from
             Bangladesh and coordination was done with Bangladesh Army medical
             team who assisted with free prescription and medicine provided by
-            GCH.The medicine was purchased from Bangladesh and coordination was
+            GCH. The medicine was purchased from Bangladesh and coordination was
             done with Bangladesh Army medical team who assisted with free
-            prescription and medicine provided by GCH.The medicine was purchased
-            from Bangladesh and coordination was done with Bangladesh Army
-            medical team who assisted with free.
+            prescription and medicine provided by GCH. The medicine was
+            purchased from Bangladesh and coordination was done with Bangladesh
+            Army medical team who assisted with free.
           </p>
         </div>
         <div className="rohingya-image">
@@ -119,7 +119,7 @@ function GchActivity() {
         <div className="pitition-text">
           <p>
             Besides the health issues, drinking water supply was another
-            important issues for Rohingya Refugees specially the children. GCH
+            important issue for Rohingya Refugees, especially the children. GCH
             came forward to arrange safe drinking water in limited scale within
             their capacity. President of GCH personally visited the camp and
             extended the required help to the need in terms of drinking water.
@@ -138,14 +138,14 @@ function GchActivity() {
               Atlantic Hurricane Season. So far, there have been 15 named storms
               during the 2018 Atlantic Hurricane Season - 7 tropical storms and
               8 hurricanes. Two of those eight hurricanes strengthened into a
-              major hurricane: Florence and Michael.Michael was the strongest
+              major hurricane: Florence and Michael. It was the strongest
               hurricane on record to make landfall in the Florida panhandle with
               maximum sustained wind of 160 mph and a minimum pressure of 919
               mb.
             </p>
             <p>
-              GCH immediate responded and stood beside affected people with the
-              generous donation from all members of the organization. To
+              GCH immediately responded and stood beside affected people with
+              generous donations from all members of the organization. To
               effectively help the need, the donation was sent to the affected
               people with the help of American Red Cross.
             </p>
@@ -175,11 +175,11 @@ function GchActivity() {
         </div>
         <div className="pitition-text">
           <p>
-            International Mother's Language day is one of the significant event
+            International Mother's Language Day is one of the significant events
             for Bengali speaking people. With the help of Palm Beach Sherif and
             ABPAC - Global Citizens for Humanity organized an event where
-            childrens were focused to learn the importance of mother language
-            for a nation. The whole program was financed by members of GCH.
+            children were focused to learn the importance of mother language for
+            a nation. The whole program was financed by members of GCH.
           </p>
         </div>
       </div>
@@ -189,11 +189,12 @@ function GchActivity() {
       <div className="rohingya-des">
         <div className="rohingya-text">
           <p>
-            Besides the health issues, drinking water supply was another
-            important issues for Rohingya Refugees specially the children. GCH
-            came forward to arrange safe drinking water in limited scale within
-            their capacity. President of GCH personally visited the camp and
-            extended the required help to the need in terms of drinking water.
+            For a long time, the community peoples in retail business had been
+            suffering from security in their profession. Lot of unpleasant
+            incidents were happening where they could not take any actions due
+            to lack of knowledge and opportunity to learn about it. Finally,
+            Plam Beach Sherief Department came forward to train the retail store
+            professionals.
           </p>
         </div>
         <div className="retailSecurity-image-1">
@@ -221,7 +222,7 @@ function GchActivity() {
           <p>
             Hurricane Dorian was an extremely powerful and catastrophic Category
             5 Atlantic hurricane, which became the most intense tropical cyclone
-            on record to strike the Bahamas on 24 August, 2019. GCH immediately
+            on record to strike the Bahamas on 24 August 2019. GCH immediately
             responded to the need of Bahama people with dry food and important
             grocery items.
           </p>
@@ -233,11 +234,10 @@ function GchActivity() {
       <div className="rohingya-des">
         <div className="rohingya-text">
           <p>
-            COVID-19 was one of the largest challenge to the humanity. GCH
-            members actively stood beside the affected people by providing
-            support in the form of tele medicine, food support and awareness
-            programs. GCH telecasted VDOs that helped to protect themselves
-            against COVID.
+            COVID-19 was one of the largest challenges to humanity. GCH members
+            actively stood beside the affected people by providing support in
+            the form of tele medicine, food support and awareness programs. GCH
+            telecasted VDOs that helped to protect themselves against COVID.
           </p>
         </div>
         <div>
@@ -287,8 +287,8 @@ function GchActivity() {
 
         <div className="pitition-text">
           <p>
-            Mental health for the childrens are one of the most concerned areas
-            for the parents in the global community. Accordingly GCH organized
+            Mental health for children is one of the most concerned areas for
+            the parents in the global community. Accordingly, GCH organized
             seminars with the expertise from different locations who identified
             the main reasons of mental illness and possible responses for the
             parents in the world.
@@ -303,13 +303,13 @@ function GchActivity() {
           <p>
             The Anti Plastic Campaign was organized to create awareness among
             the public about the adverse effect of plastic usage and to make
-            think them about stopping of its usage. As part of the campaign, on
+            think them about stopping its usage. As part of the campaign, on
             December 11, 2021, GCH successfully arranged cleaning Phipps Ocean
             Park and Beach in Palm Beach with the help of students and
             volunteers. This is an ongoing process which GCH arranges once or
-            twice a year. It is one of our very successful project. This beach
+            twice a year. It is one of our very successful projects. This beach
             cleaning process is organized mostly on Sundays or any holidays when
-            the GCH members are normally of from their professional duties.
+            the GCH members are normally off from their professional duties.
           </p>
         </div>
         <div className="retailSecurity-image-1">
@@ -335,11 +335,11 @@ function GchActivity() {
         </div>
         <div className="pitition-text">
           <p>
-            On 06 February, 2023 a 7.8 Mw earthquake struck southern and central
+            On 06 February 2023 a 7.8 Mw earthquake struck southern and central
             Turkey and northern and western Syria and caused widespread damage
             and fatalities to thousands of the peoples. GCH immediately
-            responded to the humanity and donated almost tents spending about 10
-            thousands US Dollar. The tents were send to Turkey using Turkish
+            responded to humanity and donated almost tents spending about 10
+            thousand US Dollar. The tents were sent to Turkey using Turkish
             Aitlines.
           </p>
         </div>
@@ -362,8 +362,8 @@ function GchActivity() {
               Bank and Israel-Lebanon border.
             </p>
             <p className="gaza-para-1">
-              GCH is always beside the humanity. Accordingly GCH members donated
-              funds and sent to assist the childrens in Gaza through Unicef.
+              GCH is always beside humanity. Accordingly, GCH members donated
+              funds and sent them to assist the children in Gaza through UNICEF.
             </p>
           </div>
           <div className="gaza-image">

@@ -38,7 +38,7 @@ function PageOverview() {
         <PageOverviewData
           image={PageOverview4}
           heading="GCH Membership"
-          text="GCH members are the real heroes in the humanitarian field. Beside own profession, they are always committed to humanitarian activities at their leisure time spending their own resources."
+          text="GCH members are the real heroes in the humanitarian field. Besides their own profession, they are always committed to humanitarian activities in their leisure time spending own resources."
           url="/members"
         />
       </div>

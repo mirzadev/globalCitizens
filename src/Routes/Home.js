@@ -1,4 +1,5 @@
 import Navbar from "../Components/NavbarItems/Navbar";
+import Footer from "../Components/Footer/Footer";
 import HomeMain from "../Components/HomePage/HomeMain";
 import Hero from "../Components/HeroSection/Hero";
 import home_cover from "../Components/Assets/Home/HomeCover.png";
@@ -18,6 +19,7 @@ function Home() {
       />
       <HomeMain />
       <PageOverview />
+      <Footer />
     </>
   );
 }

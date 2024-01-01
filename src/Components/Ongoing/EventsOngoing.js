@@ -20,8 +20,8 @@ function EventOngoing() {
             Humanity has planned to ripe thousands of Jackfruit trees in the
             northers part of Bangladesh. The project has already started with
             the distribution of 10,000 jackfruit plants among the school
-            childrens. This will definitely increas the environmental stability
-            in this area.
+            children. This will increase the environmental stability in this
+            area.
           </p>
         </div>
         <div className="Ongoing-event">
@@ -57,12 +57,12 @@ function EventOngoing() {
       <div className="Ongoing-des">
         <div className="Ongoing-text">
           <p>
-            To reduce the effect of plastic to the environment specially lives
-            in the ocean, GCH undertook beach cleaning project which is a
-            continious process. GCH mainly targets various beached where lot of
-            plastic materials are thrown by the normal visitors. GCH always try
-            to convince the visitors the importance of keeoing the beach clean
-            and its impact on the ocean if they fails.
+            To reduce the effect of plastic on the environment, especially those
+            who live in the ocean, GCH undertook beach cleaning project which is
+            a continuous process. GCH mainly targets various beaches where a lot
+            of plastic materials are thrown by the normal visitors. GCH always
+            try to convince the visitors of the importance of keeping the beach
+            clean and its impact on the ocean if they fail.
           </p>
         </div>
         <div className="Ongoing-event">
