@@ -4,9 +4,9 @@ import PageOverview1 from "../Assets/AboutUs/aboutUsCoverPic.jpg";
 
 import PageOverview2 from "../Assets/Activity/ActivityCoverPic.jpg";
 
-import PageOverview3 from "../Assets/Home/GCH_home-4.jpg";
+import PageOverview3 from "../Assets/Gallery/GalleryThumbnailPic.jpg";
 
-import PageOverview4 from "../Assets/Home/GCH_home-4.jpg";
+import PageOverview4 from "../Assets/Members/GchMembersThumbnailPic.jpg";
 
 function PageOverview() {
   return (
@@ -37,7 +37,7 @@ function PageOverview() {
 
         <PageOverviewData
           image={PageOverview4}
-          heading="GCH Membership"
+          heading="GCH Members"
           text="GCH members are the real heroes in the humanitarian field. Besides their own profession, they are always committed to humanitarian activities in their leisure time spending own resources."
           url="/members"
         />
