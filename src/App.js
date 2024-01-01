@@ -20,11 +20,7 @@ export default function App() {
         <Route path="/upcoming" element={<Upcoming />} />
         <Route path="/ongoing" element={<Ongoing />} />
         {/*<Route path="/events" element={<Events />} />
-        <Route path="/ekCupCha" element={<EkCupCha />} />
-        <Route path="/boishakh" element={<Boishakh />} />
-        <Route path="/kpCulture" element={<KpCulture />} />
-        <Route path="/kpNews" element={<KpNews />} />
-        <Route path="/upcoming" element={<UpcomingEvent />} />
+        
         <Route path="/members" element={<MembersCorner />} /> */}
       </Routes>
     </div>

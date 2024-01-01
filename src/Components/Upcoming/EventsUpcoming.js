@@ -23,13 +23,13 @@ function EventUpcoming() {
       <div className="upcoming-des">
         <div className="Upcoming-text">
           <p>
-            To increase security awareness in the community, Global Citizens For
+            To increase security awareness in the community, Global Citizens for
             Humanity in coordination with Palm Beach County Sherif Department,
             is going to organize a seminar where safety related issues of a
             person will get priority. In this seminar, Palm Beach Sherif
             Department will listen to community people's general issues and will
-            give guidelines accordingly.The seminar is likely to be organized on
-            May 12, 2024.
+            give guidelines accordingly. The seminar is likely to be organized
+            on May 12, 2024.
           </p>
         </div>
         <div className="upcoming-event">

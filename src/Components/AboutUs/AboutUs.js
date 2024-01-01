@@ -39,10 +39,11 @@ function AboutUs() {
       <div className="gch-reaction">
         <h2>When We Do</h2>
         <p>
-          Global Citizens For Humanity is always dedicated to serve against any
-          global need. This includes natural calimities, disasters, humanitarian
-          needs, marine debris, environmental effect etc. Any time any incident
-          takes place, GCH are always there with helping hands without delay.
+          Global Citizens for Humanity is always dedicated to serving against
+          any global need. This includes natural calamities, disasters,
+          humanitarian needs, marine debris, environmental effects etc. Any time
+          any incident takes place, GCH are always there with helping hands
+          without delay.
         </p>
         <div className="about-reaction_image">
           <img alt="img" src={GCH_Reaction_1} />
@@ -53,12 +54,12 @@ function AboutUs() {
       <div className="gch-reaction">
         <h2>How Do We Get Funds</h2>
         <p>
-          GCH members are fully dedicated for helping the community. During any
+          GCH members are fully dedicated to helping the community. During any
           need GCH first fund comes from the members. These are mainly from
           annual subscriptions and member's donation before any activities.
           However, due to the trust earned by GCH to the community, many times
-          community peoples comes forward and donate in terms of funds or
-          materials. While doing we always try to use our own experties to
+          community people come forward and donate in terms of funds or
+          materials. While doing we always try to use our own expertise to
           minimize the cost and thereby donate more towards humanity.
         </p>
         <div className="about-reaction_image">

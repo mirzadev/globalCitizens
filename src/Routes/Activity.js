@@ -1,4 +1,5 @@
 import Navbar from "../Components/NavbarItems/Navbar";
+import Footer from "../Components/Footer/Footer";
 import HeroOther from "../Components/HeroSection/HeroOther";
 import GchActivity from "../Components/Activities/GchActivity";
 import ActivityCoverPic from "../Components/Assets/Activity/ActivityCoverPic.jpg";
@@ -13,6 +14,7 @@ function About() {
         btnClass="hide"
       />
       <GchActivity />
+      <Footer />
     </>
   );
 }
