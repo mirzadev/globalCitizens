@@ -7,7 +7,8 @@ import Activity from "./Routes/Activity";
 import Contact from "./Routes/Contact";
 import Upcoming from "./Routes/UpcomingEvent";
 import Ongoing from "./Routes/OngoingEvent";
-
+import Gallery from "./Routes/Gallery";
+import Members from "./Routes/Members";
 export default function App() {
   return (
     <div className="App">
@@ -19,9 +20,8 @@ export default function App() {
         <Route path="/activity" element={<Activity />} />
         <Route path="/upcoming" element={<Upcoming />} />
         <Route path="/ongoing" element={<Ongoing />} />
-        {/*<Route path="/events" element={<Events />} />
-        
-        <Route path="/members" element={<MembersCorner />} /> */}
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/members" element={<Members />} />
       </Routes>
     </div>
   );
