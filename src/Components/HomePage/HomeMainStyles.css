@@ -22,11 +22,8 @@
   margin-top: 0.5rem;
 }
 
-.mission-des {
-  /* display: flex; */
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 2.5rem;
+.Objective-heading {
+  margin-top: 3rem;
 }
 
 .objective-list {
@@ -41,7 +38,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 3.5rem;
+  margin-top: 1.5rem;
 }
 
 .HomeMain-text {
@@ -55,17 +52,6 @@
   margin-right: 2rem;
 }
 
-.mission-text {
-  width: 100%;
-  text-align: start;
-  font-size: 1rem;
-  padding: 1rem;
-  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.19);
-  border-radius: 7px;
-  cursor: pointer;
-  margin-bottom: 2rem;
-}
-
 .objective-text {
   width: 60%;
   text-align: start;
@@ -77,15 +63,13 @@
   padding-left: 3rem;
 }
 
-.HomeMain-text h2,
-.mission-text h2 {
+.HomeMain-text h2 {
   padding-bottom: 1rem;
   justify-content: center;
   font-size: 1.6rem;
 }
 .HomeMain-text p,
-.objective-text p,
-.mission-text p {
+.objective-text p {
   text-align: justify;
   font-size: 1.2rem;
 }
@@ -112,14 +96,6 @@
   margin-top: 1rem;
 }
 
-.mission-image {
-  display: flex;
-  position: relative;
-  width: 100%;
-  justify-content: space-between;
-  z-index: -99;
-}
-
 .home-image img {
   width: 32%;
   height: auto;
@@ -134,19 +110,6 @@
   object-fit: cover;
   border-radius: 6px;
   box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
-}
-
-.mission-image img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 6px;
-  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
-}
-
-.mission-image img:nth-child(2) {
-  margin-left: 1rem;
-  width: 100%;
 }
 
 @media screen and (max-width: 850px) {
@@ -169,19 +132,6 @@
     padding-right: 0;
   }
 
-  .mission-des {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-  }
-  .mission-text {
-    width: 100%;
-    text-align: start;
-    font-size: 0.8rem;
-    padding-right: 1.5rem;
-    margin-left: 0.3rem;
-    margin-right: 0rem;
-  }
   .objective-des {
     display: flex;
     flex-direction: column-reverse;
@@ -190,8 +140,7 @@
   }
 
   .home-image,
-  .objective-image,
-  .mission-image {
+  .objective-image {
     width: 100%;
     margin: 1.5rem 0;
   }
@@ -210,7 +159,7 @@
     padding-right: 0;
   }
   .HomeMain-text h2,
-  .objective-text h2 .mission-text h2 {
+  .objective-text h2 {
     justify-content: space-evenly;
     font-size: 1.3rem;
   }
