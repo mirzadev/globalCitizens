@@ -3,10 +3,8 @@ import HomeMainData from "./HomeMainData";
 import homeMain_1 from "../Assets/Home/GCH_home-1.jpg";
 import homeMain_2 from "../Assets/Home/GCH_home-2.jpg";
 import homeMain_3 from "../Assets/Home/GCH_home-3.jpg";
-import GCH_Mission from "../Assets/Home/GCH_home-4.jpg";
-import GCH_Mission1 from "../Assets/Home/GCH_home-4A.jpg";
-import GCHObjectives from "../Assets/Home/GCH_home-5.jpg";
-import GCHObjectives_1 from "../Assets/Home/GCH_home-6.jpg";
+import GCHObjectives from "../Assets/Home/GCH_home-4.jpg";
+import GCHObjectives_1 from "../Assets/Home/GCH_home-5.jpg";
 const HomeMain = () => {
   return (
     <div className="HomeMain">
@@ -22,26 +20,16 @@ const HomeMain = () => {
         img2={homeMain_2}
         img3={homeMain_3}
       />
-
-      <div className="mission-des">
-        <div className="mission-text">
-          <h2>GCH Mission & Vision</h2>
+      <h2 className="Objective-heading">GCH Mission, Vision And Objective</h2>
+      <div className="objective-des">
+        <div className="objective-text">
           <p>
             Global Citizens for Humanity envisions a united world irrespective
             of race, religion, color, ethnicity, or gender differences to help
             reduce and combat inequality, unfair competition, war, famine,
-            refugee crises, climate disasters, and economic poverty.
+            refugee crises, climate disasters, and economic poverty. With this
+            vision ahead, GCH has following objectives:
           </p>
-        </div>
-        <div className="mission-image">
-          <img alt="img" src={GCH_Mission} />
-          <img alt="img" src={GCH_Mission1} />
-        </div>
-      </div>
-
-      <div className="objective-des">
-        <div className="objective-text">
-          <h2>GCH Objectives</h2>
           <p>
             <ul className="objective-list">
               <li>
