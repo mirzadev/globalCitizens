@@ -15,6 +15,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+.pageOverviewDataCart p {
+  text-align: justify;
+}
+
 .pageOverviewDataCart {
   width: 24%;
   text-align: start;

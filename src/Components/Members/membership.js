@@ -2,35 +2,37 @@ import "./MembershipStyles.css";
 import React from "react";
 import membershipForm from "../Assets/Members/Membership-forms.jpg";
 import President_GCH from "../Assets/Members/MembersPic/EhsanulKarim.jpg";
-import VP_GCH from "../Assets/Members/MembersPic/EhsanulKarim.jpg";
+import VP_GCH from "../Assets/Members/MembersPic/AbdulNaim.jpg";
 import GS_GCH from "../Assets/Members/MembersPic/MirzaAbdulAwal.jpg";
-import Tres_GCH from "../Assets/Members/MembersPic/EhsanulKarim.jpg";
+import Tres_GCH from "../Assets/Members/MembersPic/AfmKabir.jpg";
 import member1 from "../Assets/Members/MembersPic/ArcPrince.jpg";
 import member2 from "../Assets/Members/MembersPic/Joynab_Chowdhury.jpg";
 import member3 from "../Assets/Members/MembersPic/Fayezur_Rahman.jpg";
 import member4 from "../Assets/Members/MembersPic/Ishtiaque.jpg";
 import member5 from "../Assets/Members/MembersPic/Shakir_Ahmed.jpg";
-import member6 from "../Assets/Members/MembersPic/Firoza_rasul.jpg";
+import member6 from "../Assets/Members/MembersPic/KabirChowdhury.jpg";
 import member7 from "../Assets/Members/MembersPic/JAlamTipu.jpg";
 import member8 from "../Assets/Members/MembersPic/Kamal.jpg";
 import member9 from "../Assets/Members/MembersPic/TazeenRashid.jpg";
-import member10 from "../Assets/Members/MembersPic/TazeenRashid.jpg";
+import member10 from "../Assets/Members/MembersPic/dummy-image.jpg";
 import member11 from "../Assets/Members/MembersPic/RehanaKhan.jpg";
 import member12 from "../Assets/Members/MembersPic/NasarAhmed.jpg";
-import member13 from "../Assets/Members/MembersPic/Shakir_Ahmed.jpg";
-import member14 from "../Assets/Members/MembersPic/Firoza_rasul.jpg";
+import member13 from "../Assets/Members/MembersPic/dummy-image.jpg";
+import member14 from "../Assets/Members/MembersPic/dummy-image.jpg";
 import member15 from "../Assets/Members/MembersPic/AnamikaChowdhury.jpg";
-import member16 from "../Assets/Members/MembersPic/Kamal.jpg";
+import member16 from "../Assets/Members/MembersPic/ShihabSumon.jpg";
 import member17 from "../Assets/Members/MembersPic/AfrozaBari.jpg";
-import member18 from "../Assets/Members/MembersPic/KabirChowdhury.jpg";
+import member18 from "../Assets/Members/MembersPic/RakibHasan.jpg";
 import member19 from "../Assets/Members/MembersPic/RaihanAhmed.jpg";
 import member20 from "../Assets/Members/MembersPic/ShahzadiChisti.jpg";
-import member21 from "../Assets/Members/MembersPic/RakibHasan.jpg";
 import advisor1 from "../Assets/Members/MembersPic/JunaidAkter.jpg";
 import advisor2 from "../Assets/Members/MembersPic/ThaminaKarim.jpg";
 import advisor3 from "../Assets/Members/MembersPic/RozinaKhan.jpg";
 import advisor4 from "../Assets/Members/MembersPic/TahmidaZaman.jpg";
-import advisor5 from "../Assets/Members/MembersPic/AfrozaBari.jpg";
+import advisor5 from "../Assets/Members/MembersPic/KhodazaSweety.jpg";
+import advisor6 from "../Assets/Members/MembersPic/ShahidKhan.jpg";
+import advisor7 from "../Assets/Members/MembersPic/Ferdous.jpg";
+import advisor8 from "../Assets/Members/MembersPic/dummy-image.jpg";
 import exMember1 from "../Assets/Members/MembersPic/AmirAli.jpg";
 import exMember2 from "../Assets/Members/MembersPic/KamrulChisti.jpg";
 
@@ -113,7 +115,7 @@ function membership() {
           <div className="kp-members-area-image">
             <img src={member6} alt="member1" />
           </div>
-          <h3>Firoza Rashul</h3>
+          <h3>Kabir Chowdhury</h3>
           <p>Member</p>
         </div>
         <div className="kp-members-area">
@@ -143,7 +145,7 @@ function membership() {
           <div className="kp-members-area-image">
             <img src={member10} alt="member1" />
           </div>
-          <h3>Saif Rashid</h3>
+          <h3>Saidur Rashid</h3>
           <p>Member</p>
         </div>
         <div className="kp-members-area">
@@ -203,7 +205,7 @@ function membership() {
           <div className="kp-members-area-image">
             <img src={member18} alt="member1" />
           </div>
-          <h3>Kabir Chowdhury</h3>
+          <h3>Rakib Hasan</h3>
           <p>Member</p>
         </div>
         <div className="kp-members-area">
@@ -221,15 +223,7 @@ function membership() {
           <p>Member</p>
         </div>
       </div>
-      <div className="kp-members-cart">
-        <div className="kp-members-area">
-          <div className="kp-members-area-image">
-            <img src={member21} alt="member1" />
-          </div>
-          <h3>Rakib Hasan</h3>
-          <p>Member</p>
-        </div>
-      </div>
+
       <h2>Advisory Board</h2>
       <div className="kp-members-cart">
         <div className="kp-members-area">
@@ -243,14 +237,14 @@ function membership() {
           <div className="kp-members-area-image">
             <img src={advisor2} alt="member1" />
           </div>
-          <h3>Shopna Ehsan</h3>
+          <h3>Tahmina Karim</h3>
           <p>Advisor</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
             <img src={advisor3} alt="member1" />
           </div>
-          <h3>Rozina Khan</h3>
+          <h3>Rozina Karim Khan</h3>
           <p>Advisor</p>
         </div>
         <div className="kp-members-area">
@@ -266,26 +260,26 @@ function membership() {
           <div className="kp-members-area-image">
             <img src={advisor5} alt="member1" />
           </div>
-          <h3>Sweety</h3>
+          <h3>Khodaza Sweety</h3>
           <p>Advisor</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
-            <img src={advisor5} alt="member1" />
+            <img src={advisor6} alt="member1" />
           </div>
-          <h3>XXXXXXXXX</h3>
+          <h3>Shahid Khan</h3>
           <p>Advisor</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
-            <img src={advisor5} alt="member1" />
+            <img src={advisor7} alt="member1" />
           </div>
-          <h3>XXXXXXXXX</h3>
+          <h3>Mr. Ferdous</h3>
           <p>Advisor</p>
         </div>
         <div className="kp-members-area">
           <div className="kp-members-area-image">
-            <img src={advisor5} alt="member1" />
+            <img src={advisor8} alt="member1" />
           </div>
           <h3>XXXXXXXXX</h3>
           <p>Advisor</p>

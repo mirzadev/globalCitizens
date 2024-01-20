@@ -2,9 +2,9 @@ import "./HomeMainStyles.css";
 import HomeMainData from "./HomeMainData";
 import homeMain_1 from "../Assets/Home/GCH_home-1.jpg";
 import homeMain_2 from "../Assets/Home/GCH_home-2.jpg";
-import homeMain_3 from "../Assets/Home/GCH_home-3.jpg";
 import GCHObjectives from "../Assets/Home/GCH_home-4.jpg";
 import GCHObjectives_1 from "../Assets/Home/GCH_home-5.jpg";
+
 const HomeMain = () => {
   return (
     <div className="HomeMain">
@@ -18,10 +18,13 @@ const HomeMain = () => {
         text="Global Citizens for Humanity (GCH) is a charitable and educational non-profit organization founded in 2018 under section 501(c)(3) of the Internal Revenue Code by a group of dedicated professionals committed to advancing the well-being of humanity. Since its inception, GCH has tirelessly dedicated itself to addressing humanitarian needs worldwide, transcending boundaries of nationality, religion, and color. The organization's mission, vision, and objectives are centered on eliciting a diverse range of responses within its capacity to address various humanitarian challenges, including but not limited to natural calamities, environmental disasters, and political or racial issues. GCH strives to create a positive and lasting impact on the global community, promoting unity, compassion, and support for those in need."
         img1={homeMain_1}
         img2={homeMain_2}
-        img3={homeMain_3}
       />
       <h2 className="Objective-heading">GCH Mission, Vision And Objective</h2>
       <div className="objective-des">
+        <div className="objective-image">
+          <img alt="img" src={GCHObjectives} />
+          <img alt="img" src={GCHObjectives_1} />
+        </div>
         <div className="objective-text">
           <p>
             Global Citizens for Humanity envisions a world united beyond the
@@ -36,13 +39,13 @@ const HomeMain = () => {
             compassion, promoting a shared responsibility for creating a more
             just, equitable, and harmonious world for all.
           </p>
-          <p>
-            <ul className="objective-list">
-              <p>
-                The objectives of Global Citizens for Humanity (GCH) encompass a
-                comprehensive approach to addressing various humanitarian
-                challenges.
-              </p>
+          <p className="objective-intro">
+            The objectives of Global Citizens for Humanity (GCH) encompass a
+            comprehensive approach to addressing various humanitarian
+            challenges.
+          </p>
+          <p className="objective-list">
+            <ul>
               <li>
                 GCH is committed to actively participating in aiding refugees
                 affected by war, famine, economic hardship, and environmental
@@ -75,10 +78,6 @@ const HomeMain = () => {
               </li>
             </ul>
           </p>
-        </div>
-        <div className="objective-image">
-          <img alt="img" src={GCHObjectives} />
-          <img alt="img" src={GCHObjectives_1} />
         </div>
       </div>
     </div>
