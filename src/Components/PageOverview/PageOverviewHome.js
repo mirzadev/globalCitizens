@@ -1,6 +1,6 @@
 import "./PageOverviewStyles.css";
 import PageOverviewData from "./PageOverviewData";
-import PageOverview1 from "../Assets/AboutUs/aboutUsCoverPic.jpg";
+import PageOverview1 from "../Assets/AboutUs/aboutUsThumbnailPic.jpg";
 
 import PageOverview2 from "../Assets/Activity/ActivityCoverPic.jpg";
 
@@ -17,7 +17,7 @@ function PageOverview() {
         <PageOverviewData
           image={PageOverview1}
           heading="About GCH"
-          text="Global Citizens for Humanity (GCH) is a dedicated charitable and educational non-profit organization, operating under the provisions of section 501(c)(3) of the Internal Revenue Code since its establishment in 2018. Committed to making a positive impact on a global scale, GCH focuses on addressing diverse humanitarian challenges."
+          text="Global Citizens for Humanity (GCH) is a dedicated charitable and educational non-profit organization, operating under the provisions of section 501(c)(3) of the Internal Revenue Code since its establishment in 2018. The organization is fully committed to making a positive impact on a global scale, GCH focuses on addressing diverse humanitarian challenges."
           url="/about"
         />
 
@@ -30,7 +30,7 @@ function PageOverview() {
         <PageOverviewData
           image={PageOverview3}
           heading="GCH Gallery"
-          text="The GCH Gallery stands as a vibrant testament to the multitude of humanitarian activities accomplished throughout the organization's journey. Bursting with colorful images capturing various events and moments in time, the gallery provides a visual narrative of GCH's impactful initiatives."
+          text="The GCH Gallery stands as a vibrant testament to the multitude of humanitarian activities accomplished throughout the organization's journey. Bursting with colorful images capturing various events and moments in time, the gallery provides a visual narrative of GCH's impactful initiatives highlighting GCH connections towards humanity and dedications throughout its' journey."
           url="/gallery"
         />
 
