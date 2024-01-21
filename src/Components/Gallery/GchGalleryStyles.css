@@ -1,0 +1,54 @@
+.gallery-heading {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  color: rgb(6, 6, 146);
+}
+.gallery-container {
+  margin: 2rem 2rem;
+  color: rgb(6, 6, 146);
+  text-align: justify;
+}
+
+.GCH-event-activity-heading {
+  justify-content: start;
+  font-size: 1.5rem;
+}
+.GCH-event-activity-gallery {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.GCH-event-activity-gallery img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .gallery-heading {
+    margin-top: 1.5rem;
+    font-size: 1.6rem;
+  }
+  .gallery-container {
+    margin: 2rem 2rem;
+  }
+  .GCH-event-activity-heading {
+    padding-top: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .GCH-event-activity-gallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
