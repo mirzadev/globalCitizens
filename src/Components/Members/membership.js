@@ -14,10 +14,10 @@ import member6 from "../Assets/Members/MembersPic/KabirChowdhury.jpg";
 import member7 from "../Assets/Members/MembersPic/JAlamTipu.jpg";
 import member8 from "../Assets/Members/MembersPic/Kamal.jpg";
 import member9 from "../Assets/Members/MembersPic/TazeenRashid.jpg";
-import member10 from "../Assets/Members/MembersPic/dummy-image.jpg";
+import member10 from "../Assets/Members/MembersPic/ShumonRashid.jpg";
 import member11 from "../Assets/Members/MembersPic/RehanaKhan.jpg";
 import member12 from "../Assets/Members/MembersPic/NasarAhmed.jpg";
-import member13 from "../Assets/Members/MembersPic/dummy-image.jpg";
+import member13 from "../Assets/Members/MembersPic/Nilu.jpg";
 import member14 from "../Assets/Members/MembersPic/dummy-image.jpg";
 import member15 from "../Assets/Members/MembersPic/AnamikaChowdhury.jpg";
 import member16 from "../Assets/Members/MembersPic/ShihabSumon.jpg";
@@ -32,7 +32,7 @@ import advisor4 from "../Assets/Members/MembersPic/TahmidaZaman.jpg";
 import advisor5 from "../Assets/Members/MembersPic/KhodazaSweety.jpg";
 import advisor6 from "../Assets/Members/MembersPic/ShahidKhan.jpg";
 import advisor7 from "../Assets/Members/MembersPic/Ferdous.jpg";
-import advisor8 from "../Assets/Members/MembersPic/dummy-image.jpg";
+import advisor8 from "../Assets/Members/MembersPic/AshrafIslam.jpg";
 import exMember1 from "../Assets/Members/MembersPic/AmirAli.jpg";
 import exMember2 from "../Assets/Members/MembersPic/KamrulChisti.jpg";
 
@@ -281,7 +281,7 @@ function membership() {
           <div className="kp-members-area-image">
             <img src={advisor8} alt="member1" />
           </div>
-          <h3>XXXXXXXXX</h3>
+          <h3>Ashraful Islam, PhD</h3>
           <p>Advisor</p>
         </div>
       </div>

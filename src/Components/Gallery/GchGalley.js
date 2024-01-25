@@ -50,7 +50,6 @@ import rohingyaGallery48 from "../Assets/Gallery/Rohingra/rohingya-47.jpg";
 import rohingyaGallery49 from "../Assets/Gallery/Rohingra/rohingya-48.jpg";
 import rohingyaGallery50 from "../Assets/Gallery/Rohingra/rohingya-49.jpg";
 import rohingyaGallery51 from "../Assets/Gallery/Rohingra/rohingya-50.jpg";
-import rohingyaGallery52 from "../Assets/Gallery/Rohingra/rohingya-51.jpg";
 
 function GchGallery() {
   return (
@@ -63,13 +62,13 @@ function GchGallery() {
         <div className="GCH-event-activity-gallery">
           <div>
             <img alt="child-image" src={rohingyaGallery1} />
+            <img alt="child-image" src={rohingyaGallery2} />
+            <img alt="child-image" src={rohingyaGallery3} />
             <img alt="child-image" src={rohingyaGallery4} />
+            <img alt="child-image" src={rohingyaGallery5} />
+            <img alt="child-image" src={rohingyaGallery6} />
             <img alt="child-image" src={rohingyaGallery7} />
-            <img alt="child-image" src={rohingyaGallery10} />
-            <img alt="child-image" src={rohingyaGallery13} />
-            <img alt="child-image" src={rohingyaGallery16} />
-            <img alt="child-image" src={rohingyaGallery19} />
-            <img alt="child-image" src={rohingyaGallery22} />
+            <img alt="child-image" src={rohingyaGallery8} />
             <img alt="child-image" src={rohingyaGallery25} />
             <img alt="child-image" src={rohingyaGallery28} />
             <img alt="child-image" src={rohingyaGallery31} />
@@ -79,9 +78,9 @@ function GchGallery() {
             <img alt="child-image" src={rohingyaGallery43} />
           </div>
           <div>
-            <img alt="child-image" src={rohingyaGallery2} />
-            <img alt="child-image" src={rohingyaGallery5} />
-            <img alt="child-image" src={rohingyaGallery8} />
+            <img alt="child-image" src={rohingyaGallery10} />
+            <img alt="child-image" src={rohingyaGallery13} />
+            <img alt="child-image" src={rohingyaGallery16} />
             <img alt="child-image" src={rohingyaGallery11} />
             <img alt="child-image" src={rohingyaGallery14} />
             <img alt="child-image" src={rohingyaGallery17} />
@@ -100,8 +99,8 @@ function GchGallery() {
             <img alt="child-image" src={rohingyaGallery49} />
           </div>
           <div>
-            <img alt="child-image" src={rohingyaGallery3} />
-            <img alt="child-image" src={rohingyaGallery6} />
+            <img alt="child-image" src={rohingyaGallery19} />
+            <img alt="child-image" src={rohingyaGallery22} />
             <img alt="child-image" src={rohingyaGallery9} />
             <img alt="child-image" src={rohingyaGallery12} />
             <img alt="child-image" src={rohingyaGallery15} />
