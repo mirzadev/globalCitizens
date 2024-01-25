@@ -42,7 +42,10 @@ function ContactForm() {
 
   return (
     <div className="form-container">
-      <h1>Send Your Message to Global Citizens For Humanity</h1>
+      <h1>
+        For Your Generous Donation or Participation - PLease Contact GCH Using
+        Any of The Following
+      </h1>
       <div className="form-items">
         <form ref={form} onSubmit={sendEmail}>
           <input

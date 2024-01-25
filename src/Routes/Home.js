@@ -14,7 +14,7 @@ function Home() {
         text="DEDICATED TO PROTECT, PRESERVE, PROGRESS AND THE PROSPERITY OF HUMANITY"
         title="GLOBAL CITIZENS FOR HUMANITY"
         buttonText="Donate Now"
-        url="/about"
+        url="/contact"
         btnClass="show"
       />
       <HomeMain />

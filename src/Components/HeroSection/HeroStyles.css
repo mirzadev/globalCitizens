@@ -97,10 +97,10 @@
 @media screen and (max-width: 850px) {
   .hero-text {
     position: absolute;
-    padding: 1rem;
+    padding: 0.6rem;
     top: 55%;
     left: 50%;
-    transform: translate(-50%, -210%);
+    transform: translate(-50%, -170%);
     width: 100%;
   }
   .hero-text h1 {
