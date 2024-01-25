@@ -11,7 +11,6 @@ class HomeMainData extends Component {
         <div className="home-image">
           <img alt="img" src={this.props.img1} />
           <img alt="img" src={this.props.img2} />
-          {/* <img alt="img" src={this.props.img3} /> */}
         </div>
       </div>
     );
