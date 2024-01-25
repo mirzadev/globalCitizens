@@ -121,6 +121,11 @@
   .HomeMain h1 {
     font-size: 1.3rem;
   }
+
+  .HomeMain h2 {
+    font-size: 1.2rem;
+    text-align: start;
+  }
   .HomeMain p {
     padding-bottom: 0.7rem;
     font-size: 1rem;
@@ -129,7 +134,7 @@
   .HomeMain-des {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     width: 100%;
     padding-right: 0;
   }
@@ -147,7 +152,7 @@
     flex-direction: column;
     width: 100%;
     height: auto;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
   }
 
   .home-image img:nth-child(2) {
