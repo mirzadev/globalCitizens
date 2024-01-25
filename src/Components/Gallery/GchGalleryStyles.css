@@ -4,7 +4,7 @@
   color: rgb(6, 6, 146);
 }
 .gallery-container {
-  margin: 2rem 2rem;
+  margin: 2rem 0.5rem;
   color: rgb(6, 6, 146);
   text-align: justify;
 }
@@ -12,6 +12,7 @@
 .GCH-event-activity-heading {
   justify-content: start;
   font-size: 1.5rem;
+  margin-left: 1rem;
 }
 .GCH-event-activity-gallery {
   position: relative;
@@ -31,15 +32,16 @@
   justify-content: space-between;
   z-index: -99;
   cursor: pointer;
+  border-radius: 1.5rem;
 }
 
 @media screen and (max-width: 850px) {
   .gallery-heading {
     margin-top: 1.5rem;
-    font-size: 1.6rem;
+    font-size: 1.1rem;
   }
   .gallery-container {
-    margin: 2rem 2rem;
+    margin: 2rem 0.5rem;
   }
   .GCH-event-activity-heading {
     padding-top: 1rem;
@@ -50,5 +52,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+  .GCH-event-activity-gallery img {
+    border-radius: 1.4rem;
   }
 }

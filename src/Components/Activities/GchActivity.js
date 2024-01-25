@@ -89,12 +89,14 @@ function GchActivity() {
             members collected funds from their own members and donated medicine
             for about 350,000.00 Taka. The medicine was purchased from
             Bangladesh and coordination was done with Bangladesh Army medical
-            team who assisted with free prescription and medicine provided by
-            GCH. The medicine was purchased from Bangladesh and coordination was
-            done with Bangladesh Army medical team who assisted with free
-            prescription and medicine provided by GCH. The medicine was
-            purchased from Bangladesh and coordination was done with Bangladesh
-            Army medical team who assisted with free.
+            team in Cox's Bazar area. Before purchasing the medicine for the
+            Rohingya refugees, GCH consulted with the local healt agencies in
+            Cox's Bazar district and identified the most necessary medicines.
+            Accordingly contacted with the most quality pharmacitucle companies
+            in Bangladesh. After purchase, medicines were handed over to
+            Bangladesh Army medical camp for appropriate prescription and
+            distribution. GCH members were always vigilent throughout the
+            process.
           </p>
         </div>
         <div className="rohingya-image">
@@ -320,7 +322,7 @@ function GchActivity() {
         </div>
       </div>
       <h2 className="pitition-header" center>
-        Assistance to Turkey Earth Quake
+        Assistance to Turkey Earthquakes
       </h2>
       <div className="pitition-des">
         <div className="pitition-image">
