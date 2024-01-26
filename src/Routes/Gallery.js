@@ -14,7 +14,7 @@ function Gallery() {
       <HeroOther
         cName="hero-gallery"
         heroImg={GalleryCoverPic}
-        titleOther="Activity Gallery"
+        titleOther="GCH Gallery"
         btnClass="hide"
       />
       <GchGallery />

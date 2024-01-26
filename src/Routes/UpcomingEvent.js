@@ -11,7 +11,7 @@ function Upcoming() {
       <HeroOther
         cName="hero-upcoming"
         heroImg={UpcomingCoverPic}
-        titleOther="Upcoming Events"
+        titleOther="Upcoming"
         btnClass="hide"
       />
       <EventUpcoming />
