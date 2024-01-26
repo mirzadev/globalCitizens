@@ -17,7 +17,7 @@ function PageOverview() {
         <PageOverviewData
           image={PageOverview1}
           heading="About GCH"
-          text="Global Citizens for Humanity (GCH) is a dedicated charitable and educational non-profit organization, operating under the provisions of section 501(c)(3) of the Internal Revenue Code since its establishment in 2018. The organization is fully committed to making a positive impact on a global scale, GCH focuses on addressing diverse humanitarian challenges."
+          text="Global Citizens for Humanity (GCH) is a dedicated charitable and educational non-profit organization, operating under the provisions of section 501(c)(3) of the Internal Revenue Code since its establishment in 2018. The organization is fully committed to making a positive impact on a global scale. GCH focuses on addressing diverse humanitarian challenges throughout the globe."
           url="/about"
         />
 
@@ -37,7 +37,7 @@ function PageOverview() {
         <PageOverviewData
           image={PageOverview4}
           heading="GCH Members"
-          text="The backbone of Global Citizens for Humanity (GCH) is undoubtedly its members, who emerge as true heroes in the humanitarian field. These individuals, in addition to their regular professions, embody a steadfast commitment to humanitarian activities, willingly dedicating their leisure time and personal resources to make a positive impact on the world."
+          text="The backbone of Global Citizens for Humanity (GCH) is undoubtedly its members, who emerge as true heroes in the humanitarian field. These individuals, in addition to their regular professions, embody a steadfast commitment to humanitarian activities, willingly dedicating their leisure time and personal resources to make a positive impact on the humanity as well as on the globe."
           url="/members"
         />
       </div>
