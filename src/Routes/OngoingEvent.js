@@ -11,7 +11,7 @@ function Ongoing() {
       <HeroOther
         cName="hero-Ongoing"
         heroImg={OngoingCoverPic}
-        titleOther="Ongoing Events"
+        titleOther="Ongoing"
         btnClass="hide"
       />
       <EventOngoing />
