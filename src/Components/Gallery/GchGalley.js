@@ -57,7 +57,7 @@ function GchGallery() {
       <h1>GCH ACTIVITIES GALLERY</h1>
       <div className="gallery-container">
         <div className="GCH-event-activity-heading">
-          <h4>Rohingya Issue in Bangladesh(2018)</h4>
+          <h4>Rohingya Issue in Bangladesh (2018)</h4>
         </div>
         <div className="GCH-event-activity-gallery">
           <div>

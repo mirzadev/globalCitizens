@@ -27,7 +27,7 @@ function MotherLanguageDay() {
   return (
     <div className="gallery-container">
       <div className="GCH-event-activity-heading">
-        <h4>International Mother Language Day(2019)</h4>
+        <h4>International Mother Language Day (2019)</h4>
       </div>
       <div className="GCH-event-activity-gallery">
         <div>
@@ -48,7 +48,7 @@ function MotherLanguageDay() {
       </div>
 
       <div className="GCH-event-activity-heading">
-        <h4>Retail Security Awareness Training(2019)</h4>
+        <h4>Retail Security Awareness Training (2019)</h4>
       </div>
       <div className="GCH-event-activity-gallery">
         <div>
