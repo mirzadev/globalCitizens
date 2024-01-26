@@ -38,13 +38,13 @@
 @media screen and (max-width: 850px) {
   .gallery-heading {
     margin-top: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
   .gallery-container {
-    margin: 2rem 0.5rem;
+    margin: 1rem 0.5rem;
   }
   .GCH-event-activity-heading {
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     font-size: 1.3rem;
   }
 
