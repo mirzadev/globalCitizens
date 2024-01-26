@@ -6,7 +6,7 @@
 .gallery-container {
   margin: 2rem 0.5rem;
   color: rgb(6, 6, 146);
-  text-align: justify;
+  text-align: start;
 }
 
 .GCH-event-activity-heading {
