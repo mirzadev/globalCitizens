@@ -43,7 +43,7 @@ function ContactForm() {
   return (
     <div className="form-container">
       <h1>
-        For Your Generous Donation or Participation - PLease Contact GCH Using
+        For Your Generous Donation or Participation - Please Contact GCH Using
         Any of The Following
       </h1>
       <div className="form-items">
