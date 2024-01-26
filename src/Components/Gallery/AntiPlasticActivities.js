@@ -22,7 +22,7 @@ function AntiPlasticActivities() {
   return (
     <div className="gallery-container">
       <div className="GCH-event-activity-heading">
-        <h4>Anti PLastic Campaign - Beach Cleaning</h4>
+        <h4>Anti Plastic Campaign - Beach Cleaning</h4>
       </div>
       <div className="GCH-event-activity-gallery">
         <div>
