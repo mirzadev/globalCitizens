@@ -46,7 +46,11 @@ const Footer = () => {
             >
               <img src={FaceBook} alt="facebook" height="40" width="40" />
             </Link>
-            <Link to="/" target="_blank" rel="noreferrer">
+            <Link
+              to="https://twitter.com/home"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="twiter"
                 src={Twiter}
