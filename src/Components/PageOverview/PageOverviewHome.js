@@ -17,27 +17,27 @@ function PageOverview() {
         <PageOverviewData
           image={PageOverview1}
           heading="About GCH"
-          text="Global Citizens for Humanity (GCH) is a dedicated charitable and educational non-profit organization, operating under the provisions of section 501(c)(3) of the Internal Revenue Code since its establishment in 2018. The organization is fully committed to making a positive impact on a global scale. GCH focuses on addressing diverse humanitarian challenges throughout the globe."
+          text="Global Citizens for Humanity in short 'GCH' is a dedicated charitable and educational non-profit organization and operating under the provisions of section 501(c)(3) of the Internal Revenue Code since its establishment in 2018. The organization is fully committed to making a positive impact on a global scale. GCH focuses solely on addressing diverse humanity based challenges throughout the globe."
           url="/about"
         />
 
         <PageOverviewData
           image={PageOverview2}
           heading="GCH Activities"
-          text="GCH engages in a myriad of activities that revolve around the core principles of protecting, progressing, and preserving humanity, transcending the boundaries of religion, nationality, race, and color on a global scale. The organization is dedicated to fostering a sense of unity and solidarity, actively participating in initiatives that address humanitarian needs worldwide."
+          text="GCH engages in a myriad of activities that revolve around the core principles of protecting, progressing, and preserving the humanity, transcending the boundaries of religion, nationality, race, and color on a global scale. The organization is dedicated to fostering a sense of unity and solidarity, actively participating in initiatives that address humanitarian needs worldwide."
           url="/activity"
         />
         <PageOverviewData
           image={PageOverview3}
           heading="GCH Gallery"
-          text="The GCH Gallery stands as a vibrant testament to the multitude of humanitarian activities accomplished throughout the organization's journey. Bursting with colorful images capturing various events and moments in time, the gallery provides a visual narrative of GCH's impactful initiatives highlighting GCH connections towards humanity and dedications throughout its' journey."
+          text="The GCH Gallery stands as a vibrant testament to the multitude of humanitarian activities were accomplished throughout the organization's journey. Bursting with colorful images capturing various events and moments in time, the gallery provides a visual narrative of GCH's impactful initiatives highlighting GCH connections towards humanity and dedications throughout its' journey."
           url="/gallery"
         />
 
         <PageOverviewData
           image={PageOverview4}
           heading="GCH Members"
-          text="The backbone of Global Citizens for Humanity (GCH) is undoubtedly its members, who emerge as true heroes in the humanitarian field. These individuals, in addition to their regular professions, embody a steadfast commitment to humanitarian activities, willingly dedicating their leisure time and personal resources to make a positive impact on the humanity as well as on the globe."
+          text="The backbone of Global Citizens for Humanity (GCH) is undoubtedly its members, who emerge as true heroes in the humanitarian field. These individuals, in addition to their regular professions, embody a steadfast commitment to humanitarian activities, are willingly dedicating their leisure time and personal resources to make a positive impact on the humanity as well as on the globe."
           url="/members"
         />
       </div>

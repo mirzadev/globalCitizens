@@ -69,7 +69,7 @@ function ContactForm() {
           <section className="email-section">
             <div>
               <span className="fa solid alt fa-envelope"></span>
-              <span>Email</span>
+              <span> Email</span>
             </div>
             <div>
               <a
@@ -85,7 +85,7 @@ function ContactForm() {
           <section className="phone-section">
             <div>
               <span className="fa-solid fa-phone"></span>
-              <span>Phone</span>
+              <span> Phone</span>
             </div>
             <div>
               <span>1(646) 301-5257</span>
@@ -94,7 +94,10 @@ function ContactForm() {
           <section className="address-section">
             <div>
               <span className="fa-sharp fa-solid fa-house"></span>
-              <span>Address</span>
+              <span> Address - Send Donation Check to:</span>
+            </div>
+            <div>
+              <span>Global Citizens for Humanity</span>
             </div>
             <div>
               <a
@@ -109,6 +112,15 @@ function ContactForm() {
                 <br />
                 United States of America
               </a>
+            </div>
+          </section>
+          <section>
+            <div>
+              <span className="fa-solid fa-money-bill-transfer"></span>
+              <span> Send Donation Using Zelle</span>
+            </div>
+            <div>
+              <span>Email: globalcitizensforhumanity@gmail.com</span>
             </div>
           </section>
           <section className="social-section">
@@ -137,6 +149,9 @@ function ContactForm() {
             </a>
           </section>
         </div>
+      </div>
+      <div>
+        <h2></h2>
       </div>
     </div>
   );
