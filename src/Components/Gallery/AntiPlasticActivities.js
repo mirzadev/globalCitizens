@@ -17,6 +17,18 @@ import antiPlastic15 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-15.
 import antiPlastic16 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-16.jpg";
 import antiPlastic17 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-17.jpg";
 import antiPlastic18 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-18.jpg";
+import antiPlastic19 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-19.jpg";
+import antiPlastic20 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-20.jpg";
+import antiPlastic21 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-21.jpg";
+import antiPlastic22 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-22.jpg";
+import antiPlastic23 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-23.jpg";
+import antiPlastic24 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-24.jpg";
+import antiPlastic25 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-25.jpg";
+import antiPlastic26 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-26.jpg";
+import antiPlastic27 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-27.jpg";
+import antiPlastic28 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-28.jpg";
+import antiPlastic29 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-29.jpg";
+import antiPlastic30 from "../Assets/Gallery/AntiPlastic/AntiPLasticCampaign-30.jpg";
 
 function AntiPlasticActivities() {
   return (
@@ -32,6 +44,11 @@ function AntiPlasticActivities() {
           <img alt="child-image" src={antiPlastic4} />
           <img alt="child-image" src={antiPlastic5} />
           <img alt="child-image" src={antiPlastic18} />
+          <img alt="child-image" src={antiPlastic19} />
+          <img alt="child-image" src={antiPlastic22} />
+          <img alt="child-image" src={antiPlastic25} />
+          <img alt="child-image" src={antiPlastic28} />
+          <img alt="child-image" src={antiPlastic30} />
         </div>
         <div>
           <img alt="child-image" src={antiPlastic7} />
@@ -40,6 +57,10 @@ function AntiPlasticActivities() {
           <img alt="child-image" src={antiPlastic10} />
           <img alt="child-image" src={antiPlastic11} />
           <img alt="child-image" src={antiPlastic12} />
+          <img alt="child-image" src={antiPlastic20} />
+          <img alt="child-image" src={antiPlastic23} />
+          <img alt="child-image" src={antiPlastic26} />
+          <img alt="child-image" src={antiPlastic29} />
         </div>
         <div>
           <img alt="child-image" src={antiPlastic6} />
@@ -48,6 +69,9 @@ function AntiPlasticActivities() {
           <img alt="child-image" src={antiPlastic15} />
           <img alt="child-image" src={antiPlastic16} />
           <img alt="child-image" src={antiPlastic17} />
+          <img alt="child-image" src={antiPlastic21} />
+          <img alt="child-image" src={antiPlastic24} />
+          <img alt="child-image" src={antiPlastic27} />
         </div>
       </div>
     </div>

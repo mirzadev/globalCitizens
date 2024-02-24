@@ -1,5 +1,6 @@
 import "./MembershipStyles.css";
 import React from "react";
+import ImageCarousel from "../../ImageCarousel";
 import membershipForm from "../Assets/Members/Membership-forms.jpg";
 import President_GCH from "../Assets/Members/MembersPic/EhsanulKarim.jpg";
 import VP_GCH from "../Assets/Members/MembersPic/AbdulNaim.jpg";
@@ -37,8 +38,12 @@ import exMember1 from "../Assets/Members/MembersPic/AmirAli.jpg";
 import exMember2 from "../Assets/Members/MembersPic/KamrulChisti.jpg";
 
 function membership() {
+  // const images = [member1, member2, member3, member4];
   return (
     <div className="membership-container">
+      {/* <div>
+        <ImageCarousel images={images} />
+      </div> */}
       <h1>GCH Members</h1>
 
       <p className="members-heading-subTitle">Devoted to Humanity</p>
