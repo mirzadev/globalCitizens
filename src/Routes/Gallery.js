@@ -6,6 +6,8 @@ import GalleryCoverPic from "../Components/Assets/Gallery/GalleryCoverPage.jpg";
 import MotherLanguageDay from "../Components/Gallery/MotherLanguage";
 import FoodAidDorian from "../Components/Gallery/FoodDorian";
 import AntiPlasticActivities from "../Components/Gallery/AntiPlasticActivities";
+import PsySeminar2024 from "../Components/Gallery/PsychologistSeminar24";
+import FloodBangladesh from "../Components/Gallery/FloodBD24";
 
 function Gallery() {
   return (
@@ -21,6 +23,8 @@ function Gallery() {
       <MotherLanguageDay />
       <FoodAidDorian />
       <AntiPlasticActivities />
+      <PsySeminar2024 />
+      <FloodBangladesh />
       <Footer />
     </>
   );
