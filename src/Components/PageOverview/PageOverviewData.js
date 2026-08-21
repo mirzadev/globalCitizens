@@ -11,7 +11,7 @@ function PageOverviewData(props) {
       <h2>{props.heading}</h2>
       <p>{props.text}</p>
       <Link to={props.url}>
-        <button onClick={handleClick} className="event-button">
+        <button onClick={handleClick} className="eventButton">
           Event Details
         </button>
       </Link>

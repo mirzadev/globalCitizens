@@ -1,7 +1,8 @@
 import Navbar from "../Components/NavbarItems/Navbar";
 import Footer from "../Components/Footer/Footer";
 import HeroOther from "../Components/HeroSection/HeroOther";
-import GchGallery from "../Components/Gallery/GchGalley";
+import GchGallery from "../Components/Gallery/PhotoGallery/GCHPhotoGallery";
+import PhotoGalleryAll from "../Components/Gallery/PhotoGallery/PhotoGalleryYearly/PhotoGalleryHome";
 import GalleryCoverPic from "../Components/Assets/Gallery/GalleryCoverPage.jpg";
 import MotherLanguageDay from "../Components/Gallery/MotherLanguage";
 import FoodAidDorian from "../Components/Gallery/FoodDorian";
@@ -20,6 +21,7 @@ function Gallery() {
         btnClass="hide"
       />
       <GchGallery />
+      <PhotoGalleryAll />
       <MotherLanguageDay />
       <FoodAidDorian />
       <AntiPlasticActivities />
