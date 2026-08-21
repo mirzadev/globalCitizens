@@ -34,8 +34,7 @@
   cursor: pointer;
   margin-right: 2rem;
 }
-.hurricane-text,
-.gaza-text {
+.hurricane-text {
   width: 100%;
   text-align: start;
   padding: 1rem;
@@ -47,9 +46,10 @@
 
 .hurricane-michael,
 .gaza-help {
-  width: 54%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  text-align: justify;
 }
 
 .rohingya-text h2,

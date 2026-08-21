@@ -3,29 +3,33 @@ import React from "react";
 import ImageCarousel from "../../ImageCarousel";
 import membershipForm from "../Assets/Members/Membership-forms.jpg";
 import President_GCH from "../Assets/Members/MembersPic/EhsanulKarim.jpg";
-import VP_GCH from "../Assets/Members/MembersPic/AbdulNaim.jpg";
-import GS_GCH from "../Assets/Members/MembersPic/MirzaAbdulAwal.jpg";
-import Tres_GCH from "../Assets/Members/MembersPic/AfmKabir.jpg";
+import VP_GCH from "../Assets/Members/MembersPic/AbdulNaim.jpeg";
+import GS_GCH from "../Assets/Members/MembersPic/MirzaAbdulAwal.png";
+import Tres_GCH from "../Assets/Members/MembersPic/AfmKabir.png";
 import member1 from "../Assets/Members/MembersPic/ArcPrince.jpg";
 import member2 from "../Assets/Members/MembersPic/Joynab_Chowdhury.jpg";
-import member3 from "../Assets/Members/MembersPic/Fayezur_Rahman.jpg";
+import member3 from "../Assets/Members/MembersPic/Fayezur_Rahman.jpeg";
 import member4 from "../Assets/Members/MembersPic/Ishtiaque.jpg";
 import member5 from "../Assets/Members/MembersPic/Shakir_Ahmed.jpg";
 import member6 from "../Assets/Members/MembersPic/KabirChowdhury.jpg";
 import member7 from "../Assets/Members/MembersPic/JAlamTipu.jpg";
 import member8 from "../Assets/Members/MembersPic/Kamal.jpg";
-import member9 from "../Assets/Members/MembersPic/dummy-image.jpg";
-import member10 from "../Assets/Members/MembersPic/dummy-image.jpg";
+import member9 from "../Assets/Members/MembersPic/Tazeen_Rashid.jpg";
+import member10 from "../Assets/Members/MembersPic/SaidurRashid.png";
 import member11 from "../Assets/Members/MembersPic/RehanaKhan.jpg";
 import member12 from "../Assets/Members/MembersPic/NasarAhmed.jpg";
-import member13 from "../Assets/Members/MembersPic/Nilu.jpg";
-import member14 from "../Assets/Members/MembersPic/dummy-image.jpg";
+import member13 from "../Assets/Members/MembersPic/NeeluIslam.jpg";
+import member14 from "../Assets/Members/MembersPic/NaseemAhmed.jpeg";
 import member15 from "../Assets/Members/MembersPic/AnamikaChowdhury.jpg";
 import member16 from "../Assets/Members/MembersPic/ShihabSumon.jpg";
 import member17 from "../Assets/Members/MembersPic/AfrozaBari.jpg";
 import member18 from "../Assets/Members/MembersPic/RakibHasan.jpg";
-import member19 from "../Assets/Members/MembersPic/RaihanAhmed.jpg";
-import member20 from "../Assets/Members/MembersPic/ShahzadiChisti.jpg";
+import member19 from "../Assets/Members/MembersPic/RaihanAhmed.jpeg";
+import member20 from "../Assets/Members/MembersPic/ShahzadiChisty.jpg";
+import member21 from "../Assets/Members/MembersPic/KabitaRahman.jpeg";
+import member22 from "../Assets/Members/MembersPic/SohelRana.jpg";
+import member23 from "../Assets/Members/MembersPic/AbdulLatif.png";
+import member24 from "../Assets/Members/MembersPic/AhmedRusho.png";
 import advisor1 from "../Assets/Members/MembersPic/JunaidAkter.jpg";
 import advisor2 from "../Assets/Members/MembersPic/ThaminaKarim.jpg";
 import advisor3 from "../Assets/Members/MembersPic/RozinaKhan.jpg";
@@ -34,8 +38,18 @@ import advisor5 from "../Assets/Members/MembersPic/KhodazaSweety.jpg";
 import advisor6 from "../Assets/Members/MembersPic/ShahidKhan.jpg";
 import advisor7 from "../Assets/Members/MembersPic/Ferdous.jpg";
 import advisor8 from "../Assets/Members/MembersPic/AshrafIslam.jpg";
+import advisor9 from "../Assets/Members/MembersPic/SiddiquerRahman.jpeg";
+import advisor10 from "../Assets/Members/MembersPic/NasreenAkter.jpg";
+import advisor11 from "../Assets/Members/MembersPic/NishatIslam.jpg";
+import advisor12 from "../Assets/Members/MembersPic/UmmeRumana.jpeg";
+import advisor13 from "../Assets/Members/MembersPic/YasminAkhter.jpg";
+import advisor14 from "../Assets/Members/MembersPic/BadruNessa.jpg";
+import advisor15 from "../Assets/Members/MembersPic/KaziMoon.jpg";
+import advisor16 from "../Assets/Members/MembersPic/ChomonNaim.png";
+import advisor17 from "../Assets/Members/MembersPic/RubanaShakir.jpg";
+import advisor18 from "../Assets/Members/MembersPic/NahidaIslam.png";
 import exMember1 from "../Assets/Members/MembersPic/AmirAli.jpg";
-import exMember2 from "../Assets/Members/MembersPic/KamrulChisti.jpg";
+import exMember2 from "../Assets/Members/MembersPic/KamrulChisty.jpeg";
 
 function membership() {
   // const images = [member1, member2, member3, member4];
@@ -45,9 +59,7 @@ function membership() {
         <ImageCarousel images={images} />
       </div> */}
       <h1>GCH Members</h1>
-
       <p className="members-heading-subTitle">Devoted to Humanity</p>
-
       <div className="kp-members-cart">
         <div className="kp-members-area">
           <div className="kp-members-area-image">
@@ -173,7 +185,7 @@ function membership() {
           <div className="kp-members-area-image">
             <img src={member13} alt="member1" />
           </div>
-          <h3>Nilufar</h3>
+          <h3>Neelu Islam</h3>
           <p>Member</p>
         </div>
         <div className="kp-members-area">
@@ -224,11 +236,40 @@ function membership() {
           <div className="kp-members-area-image">
             <img src={member20} alt="member1" />
           </div>
-          <h3>Shahzadi Chisti</h3>
+          <h3>Shahzadi Chisty</h3>
           <p>Member</p>
         </div>
       </div>
-
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={member21} alt="member1" />
+          </div>
+          <h3>Kabita Rahman</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={member22} alt="member1" />
+          </div>
+          <h3>Md Sohel Rana</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={member23} alt="member1" />
+          </div>
+          <h3>Abdul Latif</h3>
+          <p>Member</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={member24} alt="member1" />
+          </div>
+          <h3>M Ahmed Rusho</h3>
+          <p>Member</p>
+        </div>
+      </div>
       <h2>Advisory Board</h2>
       <div className="kp-members-cart">
         <div className="kp-members-area">
@@ -290,7 +331,83 @@ function membership() {
           <p>Advisor</p>
         </div>
       </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={advisor9} alt="member1" />
+          </div>
+          <h3>Siddiqur Rahman</h3>
+          <p>Advisor</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={advisor10} alt="member1" />
+          </div>
+          <h3>Nasrin Akter</h3>
+          <p>Advisor</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={advisor11} alt="member1" />
+          </div>
+          <h3>Nishat R Islam</h3>
+          <p>Advisor</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={advisor12} alt="member1" />
+          </div>
+          <h3>Umme Rumana</h3>
+          <p>Advisor</p>
+        </div>
+      </div>
 
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={advisor13} alt="member1" />
+          </div>
+          <h3>Yasmin Akhter</h3>
+          <p>Advisor</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={advisor14} alt="member1" />
+          </div>
+          <h3>Badrun Nessa</h3>
+          <p>Advisor</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={advisor15} alt="member1" />
+          </div>
+          <h3>Kazi Moon</h3>
+          <p>Advisor</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={advisor16} alt="member1" />
+          </div>
+          <h3>Chomon Naim</h3>
+          <p>Advisor</p>
+        </div>
+      </div>
+      <div className="kp-members-cart">
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={advisor17} alt="member1" />
+          </div>
+          <h3>Rubana Shakir</h3>
+          <p>Advisor</p>
+        </div>
+        <div className="kp-members-area">
+          <div className="kp-members-area-image">
+            <img src={advisor18} alt="member1" />
+          </div>
+          <h3>Nahida</h3>
+          <p>Advisor</p>
+        </div>
+      </div>
       <h2>In Our Memory</h2>
       <div className="kp-members-cart">
         <div className="kp-members-area">
@@ -304,11 +421,10 @@ function membership() {
           <div className="kp-members-area-image">
             <img src={exMember2} alt="member1" />
           </div>
-          <h3>Late Mr. Kamrul Chisti</h3>
+          <h3>Late Mr. Kamrul Chisty</h3>
           <p>Founding Treasurer</p>
         </div>
       </div>
-
       <h2>GCH Membership Form</h2>
       <div>
         <p>Download the form, fill up and email to GCH</p>

@@ -20,8 +20,8 @@ import AntiPlastic1 from "../Assets/Activity/Anti-Plastic-1.jpg";
 import AntiPlastic2 from "../Assets/Activity/Anti-Plastic-2.jpg";
 import TurkeyEQ1 from "../Assets/Activity/TurkeyEarthQuake-1.jpg";
 import TurkeyEQ2 from "../Assets/Activity/TurkeyEarthQuake-2.jpg";
-import GazaChildren1 from "../Assets/Activity/GazaHelp-1.jpg";
-import GazaChildren2 from "../Assets/Activity/GazaHelp-2.jpg";
+// import GazaChildren1 from "../Assets/Activity/GazaHelp-1.jpg";
+// import GazaChildren2 from "../Assets/Activity/GazaHelp-2.jpg";
 import GazaChildren3 from "../Assets/Activity/GazaHelp-3.jpg";
 function GchActivity() {
   return (
@@ -350,36 +350,36 @@ function GchActivity() {
       <h2 className="rohingya-header" center>
         Assistance to Childrens in Gaza
       </h2>
-      <div className="gaza-des">
-        <div className="gaza-help">
-          <div className="gaza-text">
-            <p>
-              The Israeli-Palestinian conflict is over who gets what land and
-              how it's controlled. Though both Jews and Arab Muslims date their
-              claims to the land back a couple thousand years, the current
-              political conflict began in the early 20th century. Recently an
-              armed conflict between Israel and Hamas-led Palestinian militant
-              groups has been taking place chiefly in and around the Gaza Strip
-              since 7 October 2023, with clashes also taking place in the West
-              Bank and Israel-Lebanon border.
-            </p>
-            <p className="gaza-para-1">
-              GCH is always beside humanity. Accordingly, GCH members donated
-              funds and sent them to assist the children in Gaza through UNICEF.
-            </p>
-          </div>
-          <div className="gaza-image">
+      {/* <div className="gaza-des"> */}
+      <div className="gaza-help">
+        {/* <div className="gaza-text"> */}
+        <p>
+          The Israeli-Palestinian conflict is over who gets what land and how
+          it's controlled. Though both Jews and Arab Muslims date their claims
+          to the land back a couple thousand years, the current political
+          conflict began in the early 20th century. Recently an armed conflict
+          between Israel and Hamas-led Palestinian militant groups has been
+          taking place chiefly in and around the Gaza Strip since 7 October
+          2023, with clashes also taking place in the West Bank and
+          Israel-Lebanon border.
+        </p>
+        <p className="gaza-para-1">
+          GCH is always beside humanity. Accordingly, GCH members donated funds
+          and sent them to assist the children in Gaza through UNICEF.
+        </p>
+        {/* </div> */}
+        {/* <div className="gaza-image">
             <img alt="img" src={GazaChildren1} />
           </div>
           <div className="gaza-image-1">
             <img alt="img" src={GazaChildren2} />
-          </div>
-        </div>
-
-        <div className="gaza-image-2">
-          <img alt="img" src={GazaChildren3} />
-        </div>
+          </div> */}
       </div>
+
+      <div className="gaza-image-2">
+        <img alt="img" src={GazaChildren3} />
+      </div>
+      {/* </div> */}
     </div>
   );
 }

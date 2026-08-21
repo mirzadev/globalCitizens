@@ -1,0 +1,135 @@
+.GCH-video-container {
+  text-align: center;
+  margin-top: 7rem;
+  padding: 0 4rem 3rem;
+  box-sizing: border-box;
+}
+
+.GCH-video-logo img {
+  width: 14rem;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.GCH-video-container h1 {
+  font-size: 2.4rem;
+  font-family: "Lucida Sans", sans-serif;
+  font-weight: bold;
+  color: #0b1f3a;
+  margin-bottom: 1rem;
+}
+
+.GCH-video-intro {
+  max-width: 900px;
+  font-family: sans-serif;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.video-card {
+  width: 100%;
+  background: #fffdf7;
+  padding: 1rem;
+  border-radius: 12px;
+  border-left: 5px solid #c99a2e;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+}
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 ratio */
+  overflow: hidden;
+  border-radius: 10px;
+  background: #000;
+}
+
+.video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: none;
+}
+
+.youtube-link {
+  margin-top: 1rem;
+  padding: 0.75rem 1.4rem;
+  background-color: #0b1f3a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.youtube-link:hover {
+  background-color: #c99a2e;
+  color: #0b1f3a;
+}
+
+/* Tablet */
+@media (max-width: 850px) {
+  .GCH-video-container {
+    margin-top: 4rem;
+    padding: 0 1rem 2rem;
+  }
+
+  .GCH-video-logo img {
+    width: 11rem;
+  }
+
+  .GCH-video-container h1 {
+    font-size: 1.6rem;
+  }
+
+  .GCH-video-intro {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .video-container {
+    grid-template-columns: 1fr;
+    /* gap: 1.5rem; */
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .GCH-video-container {
+    padding: 0 0.6rem 1.5rem;
+  }
+
+  .GCH-video-logo img {
+    width: 9rem;
+  }
+
+  .GCH-video-container h1 {
+    font-size: 1.25rem;
+  }
+
+  .GCH-video-intro {
+    font-size: 0.9rem;
+  }
+
+  .video-card {
+    padding: 0.7rem;
+  }
+
+  .youtube-link {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+}
